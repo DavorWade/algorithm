@@ -1,2 +1,2 @@
 # algorithm
-Algorithm practice for improvement of program-thinking and finding job.
+Algorithm practice for improvement of program-thinking and finding jobs.
