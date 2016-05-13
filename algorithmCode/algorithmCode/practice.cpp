@@ -16,22 +16,6 @@ struct binary_tree_node_t {
 	tree_node_elem_t elem;
 };
 
-void preorder(const binary_tree_node_t* root, int(*visit)(const binary_tree_node_t*)) {
-	const binary_tree_node_t* tem = root;
-	stack<const binary_tree_node_t*> s;
-
-	if (tem != nullptr) s.push(tem);
-
-	while (!s.empty()) {
-		tem = s.top();
-		s.pop();
-		visit(tem);
-
-		if (tem->right != nullptr) s.push(tem->right);
-		if (tem->left != nullptr) s.push(tem->left);
-	}
-}
-
 void inorder(const binary_tree_node_t* root, int(*visit)(const binary_tree_node_t*)) {
 	const binary_tree_node_t* p = root;
 	stack<const binary_tree_node_t*> s;
