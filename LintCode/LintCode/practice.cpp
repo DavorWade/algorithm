@@ -16,26 +16,36 @@ struct binary_tree_node_t {
 	tree_node_elem_t elem;
 };
 
+int visit(const binary_tree_node_t* node)
+{
+	return node->elem;
+}
+
 void inorder(const binary_tree_node_t* root, int(*visit)(const binary_tree_node_t*)) {
 	const binary_tree_node_t* p = root;
 	stack<const binary_tree_node_t*> s;
 
-	/*if (p != nullptr) s.push(p);
+	/*
+	if (p != nullptr) s.push(p);
 
+	
 	while (!s.empty()) {
-	p = s.top();
-	s.pop();
+		p = s.top();
+		s.pop();
 
-	if (p->left != nullptr) {
-	s.push(p);
-	s.push(p->left);
+		if (p->left != nullptr) {
+			s.push(p);
+			s.push(p->left);
+		}
+		else {
+			int ele = visit(p);
+			printf("%d ", ele);
+			if (p->right != nullptr)
+				s.push(p->right);
+		}
 	}
-	else {
-	visit(p);
-	if (p->right != nullptr)
-	s.push(p->right);
-	}
-	}*/
+	*/
+
 	while (!s.empty() || p != nullptr) {
 		if (p != nullptr) {
 			s.push(p);
@@ -44,7 +54,8 @@ void inorder(const binary_tree_node_t* root, int(*visit)(const binary_tree_node_
 		else {
 			p = s.top();
 			s.pop();
-			visit(p);
+			int ele = visit(p);
+			printf("%d ", ele);
 
 			p = p->right;
 		}
@@ -68,16 +79,85 @@ void postorder(const binary_tree_node_t* root, int(*visit)(const binary_tree_nod
 				p->right;
 			}
 			else {
-				visit(p);
+				int ele = visit(p);
+				printf("%d ", ele);
 			}
 		}
 	}
 }
 
+const binary_tree_node_t* make_tree()
+{
+	binary_tree_node_t root;
+	root.elem = 0;
+	binary_tree_node_t a;
+	a.elem = 1;
+	binary_tree_node_t b;
+	b.elem = 2;
+	binary_tree_node_t c;
+	c.elem = 3;
+	binary_tree_node_t d;
+	d.elem = 4;
+	binary_tree_node_t e;
+	e.elem = 5;
+	binary_tree_node_t f;
+	f.elem = 6;
+
+	root.left = &a;
+	root.right = &b;
+	a.left = &c;
+	a.right = &d;
+	b.left = &e;
+	b.right = &f;
+	c.left = nullptr;
+	c.right = nullptr;
+	d.left = nullptr;
+	d.right = nullptr;
+	e.left = nullptr;
+	e.right = nullptr;
+	f.left = nullptr;
+	f.right = nullptr;
+
+	return &root;
+}
+
 int main(int argc, char *argv[])
 {
 	//printf("%d\n", (1 << n) - 1); /* ×Ü´ÎÊý*/
+	binary_tree_node_t root;
+	root.elem = 0;
+	binary_tree_node_t a;
+	a.elem = 1;
+	binary_tree_node_t b;
+	b.elem = 2;
+	binary_tree_node_t c;
+	c.elem = 3;
+	binary_tree_node_t d;
+	d.elem = 4;
+	binary_tree_node_t e;
+	e.elem = 5;
+	binary_tree_node_t f;
+	f.elem = 6;
 
+	root.left = &a;
+	root.right = &b;
+	a.left = &c;
+	a.right = &d;
+	b.left = &e;
+	b.right = &f;
+	c.left = nullptr;
+	c.right = nullptr;
+	d.left = nullptr;
+	d.right = nullptr;
+	e.left = nullptr;
+	e.right = nullptr;
+	f.left = nullptr;
+	f.right = nullptr;
+
+	inorder(&root, *visit);
+	printf("\n");
+
+	system("pause");
 	return 0;
 }
 
