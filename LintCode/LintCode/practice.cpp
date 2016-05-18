@@ -86,41 +86,6 @@ void postorder(const binary_tree_node_t* root, int(*visit)(const binary_tree_nod
 	}
 }
 
-const binary_tree_node_t* make_tree()
-{
-	binary_tree_node_t root;
-	root.elem = 0;
-	binary_tree_node_t a;
-	a.elem = 1;
-	binary_tree_node_t b;
-	b.elem = 2;
-	binary_tree_node_t c;
-	c.elem = 3;
-	binary_tree_node_t d;
-	d.elem = 4;
-	binary_tree_node_t e;
-	e.elem = 5;
-	binary_tree_node_t f;
-	f.elem = 6;
-
-	root.left = &a;
-	root.right = &b;
-	a.left = &c;
-	a.right = &d;
-	b.left = &e;
-	b.right = &f;
-	c.left = nullptr;
-	c.right = nullptr;
-	d.left = nullptr;
-	d.right = nullptr;
-	e.left = nullptr;
-	e.right = nullptr;
-	f.left = nullptr;
-	f.right = nullptr;
-
-	return &root;
-}
-
 int main(int argc, char *argv[])
 {
 	//printf("%d\n", (1 << n) - 1); /* ×Ü´ÎÊý*/
