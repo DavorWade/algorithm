@@ -117,6 +117,7 @@ void Exponentiation()
 int main()
 {
 	Exponentiation();
-	system("pause");
+
+	//system("pause");
 	return  0;
 }

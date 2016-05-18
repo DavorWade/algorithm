@@ -51,6 +51,29 @@ void inorder(const binary_tree_node_t* root, int(*visit)(const binary_tree_node_
 	}
 }
 
+void postorder(const binary_tree_node_t* root, int(*visit)(const binary_tree_node_t*)) {
+	const binary_tree_node_t* p = root;
+	stack<const binary_tree_node_t*> s;
+
+	while (!s.empty() || p != nullptr) {
+		if (p != nullptr) {
+			s.push(p);
+			p = p->left;
+		}
+		else {
+			p = s.top();
+			s.pop();
+			if (p->right != nullptr) {
+				s.push(p);
+				p->right;
+			}
+			else {
+				visit(p);
+			}
+		}
+	}
+}
+
 int main(int argc, char *argv[])
 {
 	//printf("%d\n", (1 << n) - 1); /* ×Ü´ÎÊý*/
