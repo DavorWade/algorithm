@@ -93,6 +93,7 @@ void post_order(const binary_tree_node_t *root, int(*visit)(const binary_tree_no
 	const binary_tree_node_t *p, *q;
 	stack<const binary_tree_node_t *> s;
 	p = root;
+
 	do {
 		while (p != nullptr) { /* 往左下走*/
 			s.push(p);
@@ -136,8 +137,8 @@ void level_order(const binary_tree_node_t *root, int(*visit)(const binary_tree_n
 	}
 }
 
+/*
 int main(int argc, char *argv[]) {
-	//printf("%d\n", (1 << n) - 1); /* 总次数*/
 	binary_tree_node_t root;
 	root.elem = 0;
 	binary_tree_node_t a;
@@ -180,3 +181,4 @@ int main(int argc, char *argv[]) {
 	system("pause");
 	return 0;
 }
+*/
