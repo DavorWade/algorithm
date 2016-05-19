@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stack>
+#include <queue>
 
 using namespace std;
 
 /** 结点的数据*/
 typedef int tree_node_elem_t;
+
 /*
 *@struct
 *@brief 二叉树结点
@@ -16,8 +18,7 @@ struct binary_tree_node_t {
 	tree_node_elem_t elem;
 };
 
-int visit(const binary_tree_node_t* node)
-{
+int visit(const binary_tree_node_t* node) {
 	return node->elem;
 }
 
@@ -117,8 +118,25 @@ void post_order(const binary_tree_node_t *root, int(*visit)(const binary_tree_no
 	} while (!s.empty());
 }
 
-int main(int argc, char *argv[])
-{
+
+void level_order(const binary_tree_node_t *root, int(*visit)(const binary_tree_node_t*)) {
+	const binary_tree_node_t* p = root;
+	queue<const binary_tree_node_t*> q;
+
+	if (p != nullptr) q.push(p);
+
+	while (!q.empty()) {
+		p = q.front();
+		q.pop();
+		int val = visit(p);
+		printf("%d ", val);
+
+		if (p->left != nullptr) q.push(p->left);
+		if (p->right != nullptr) q.push(p->right);
+	}
+}
+
+int main(int argc, char *argv[]) {
 	//printf("%d\n", (1 << n) - 1); /* 总次数*/
 	binary_tree_node_t root;
 	root.elem = 0;
@@ -149,6 +167,9 @@ int main(int argc, char *argv[])
 	e.right = nullptr;
 	f.left = nullptr;
 	f.right = nullptr;
+
+	level_order(&root, *visit);
+	printf("\n");
 
 	preorder(&root, *visit);
 	printf("\n");
