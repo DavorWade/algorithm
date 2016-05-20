@@ -29,6 +29,14 @@ void yanghui_triangle(const int n) {
 	}
 }
 
+void swap_bit(int &a, int &b) {
+	if (a != b) {
+		a ^= b;
+		b ^= a;
+		a ^= b;
+	}
+}
+
 int main(int argc, char *argv[]) {
 	printf("\n");
 
