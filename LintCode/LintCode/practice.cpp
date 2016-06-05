@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stack>
 #include <queue>
+#include <string.h>
 
 using namespace std;
 
@@ -29,17 +30,28 @@ void yanghui_triangle(const int n) {
 	}
 }
 
-void swap_bit(int &a, int &b) {
-	if (a != b) {
-		a ^= b;
-		b ^= a;
-		a ^= b;
+int minimumTotal(vector<vector<int> > &triangle) {
+	vector<int> dp;
+	int rows = triangle.size();
+	for (int i = 0; i < rows; i++) {
+		dp.push_back(triangle[rows - 1][i]);
 	}
+
+	for (int row = rows - 2; row >= 0; row--) {
+		for (int j = 0; j <= row; j++) {
+			dp[j] = triangle[row][j] + min(dp[j], dp[j + 1]);
+		}
+	}
+
+	return dp[0];
 }
 
+/*
 int main(int argc, char *argv[]) {
+
 	printf("\n");
 
 	system("pause");
 	return 0;
 }
+*/

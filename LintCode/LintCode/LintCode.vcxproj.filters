@@ -21,5 +21,8 @@
     <ClCompile Include="Tree_traverse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ClimbingStairs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

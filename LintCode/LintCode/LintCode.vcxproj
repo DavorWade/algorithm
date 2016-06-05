@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="practice.cpp" />
     <ClCompile Include="Tree_traverse.cpp" />
   </ItemGroup>
