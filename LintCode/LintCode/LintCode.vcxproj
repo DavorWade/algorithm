@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ClimbingStairs.cpp" />
+    <ClCompile Include="ClimbingStairs_m_steps.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="practice.cpp" />
     <ClCompile Include="Tree_traverse.cpp" />

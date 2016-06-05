@@ -21,10 +21,10 @@
     <ClCompile Include="Tree_traverse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ClimbingStairs.cpp">
+    <ClCompile Include="Fibonacci.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Fibonacci.cpp">
+    <ClCompile Include="ClimbingStairs_m_steps.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
