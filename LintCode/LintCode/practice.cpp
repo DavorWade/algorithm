@@ -31,15 +31,16 @@ void yanghui_triangle(const int n) {
 }
 
 int minimumTotal(vector<vector<int> > &triangle) {
-	vector<int> dp;
-	int rows = triangle.size();
+	const int rows = triangle.size();
+	vector<int> dp(rows);
+
 	for (int i = 0; i < rows; i++) {
-		dp.push_back(triangle[rows - 1][i]);
+		dp[i] = triangle[rows - 1][i];
 	}
 
-	for (int row = rows - 2; row >= 0; row--) {
-		for (int j = 0; j <= row; j++) {
-			dp[j] = triangle[row][j] + min(dp[j], dp[j + 1]);
+	for (int j = rows - 2; j >= 0; j--) {
+		for (int k = 0; k <= j; k++) {
+			dp[k] = triangle[j][k] + min(dp[k], dp[k + 1]);
 		}
 	}
 
