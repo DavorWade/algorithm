@@ -27,5 +27,8 @@
     <ClCompile Include="ClimbingStairs_m_steps.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

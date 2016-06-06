@@ -13,6 +13,7 @@
   <ItemGroup>
     <ClCompile Include="ClimbingStairs_m_steps.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
+    <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
     <ClCompile Include="practice.cpp" />
     <ClCompile Include="Tree_traverse.cpp" />
   </ItemGroup>
