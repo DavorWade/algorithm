@@ -8,6 +8,7 @@ using namespace std;
 class Solution {
 public:
 	/**
+	* http://www.lintcode.com/en/problem/longest-increasing-continuous-subsequence/
 	* @param A an array of Integer
 	* @return  an integer
 	*/
