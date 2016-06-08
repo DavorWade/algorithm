@@ -35,6 +35,7 @@ public:
 	}
 };
 
+/*
 int main(int argc, char *argv[]) {
 	Solution solution;
 	int n = 6, m = 4;
@@ -44,3 +45,4 @@ int main(int argc, char *argv[]) {
 	system("pause");
 	return 0;
 }
+*/
