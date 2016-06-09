@@ -52,7 +52,7 @@ int main(int argc, char *argv[]) {
 	v.push_back(5);
 	v.push_back(7);
 
-	int rb = s.backPack(11, v);
+	int rb = s.backPack(14, v);
 	printf("%d", rb);
 
 	printf("\n");
