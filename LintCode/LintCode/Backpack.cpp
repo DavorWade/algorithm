@@ -21,13 +21,11 @@ public:
 		vector<vector<bool> > dp(N, vector<bool>(M, false));
 
 		dp[0][0] = true;
-		for (int i = 1; i != N; ++i) {
-			for (int j = 0; j != M; ++j) {
-				if (j < A[i - 1]) {
-					dp[i][j] = dp[i - 1][j];
-				}
-				else {
-					dp[i][j] = dp[i - 1][j] || dp[i - 1][j - A[i - 1]];
+		for (int i = 1; i < N; ++i) {
+			for (int j = 0; j < M; ++j) {
+				dp[i][j] = dp[i - 1][j];
+				if (j >= A[i - 1] && dp[i - 1][j - A[i - 1]]) {
+					dp[i][j] = true;
 				}
 			}
 		}
@@ -51,7 +49,7 @@ int main(int argc, char *argv[]) {
 	v.push_back(5);
 	v.push_back(7);
 
-	int rb = s.backPack(14, v);
+	int rb = s.backPack(16, v);
 	printf("%d", rb);
 
 	printf("\n");
