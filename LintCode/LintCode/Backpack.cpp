@@ -16,7 +16,6 @@ public:
 	int backPack(int m, vector<int> A) {
 		// write your code here
 		if (A.empty() || m < 1) return 0;
-
 		const int N = A.size() + 1;
 		const int M = m + 1;
 		vector<vector<bool> > dp(N, vector<bool>(M, false));
