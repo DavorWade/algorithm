@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <vector>
 #include <stack>
 #include <queue>
 #include <string.h>
@@ -30,28 +31,14 @@ void yanghui_triangle(const int n) {
 	}
 }
 
-int minimumTotal(vector<vector<int> > &triangle) {
-	const int rows = triangle.size();
-	vector<int> dp(rows);
-
-	for (int i = 0; i < rows; i++) {
-		dp[i] = triangle[rows - 1][i];
-	}
-
-	for (int j = rows - 2; j >= 0; j--) {
-		for (int k = 0; k <= j; k++) {
-			dp[k] = triangle[j][k] + min(dp[k], dp[k + 1]);
-		}
-	}
-
-	return dp[0];
-}
-
 /*
 int main(int argc, char *argv[]) {
+	int dimension = 2;
+	vector<vector<int>> dp(dimension, vector<int>(dimension));
+	dp[0][0] = 1;
+	printf("dp[0][0]:%d", dp[0][0]);
 
 	printf("\n");
-
 	system("pause");
 	return 0;
 }
