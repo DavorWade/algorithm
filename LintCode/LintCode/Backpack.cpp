@@ -40,6 +40,31 @@ public:
 	}
 };
 
+class Solution {
+public:
+	/**
+	* http://www.lintcode.com/en/problem/backpack/
+	* @param m: An integer m denotes the size of a backpack
+	* @param A: Given n items with size A[i]
+	* @return: The maximum size
+	*/
+	int backPack(int m, vector<int> A) {
+		// write your code here
+		if (A.empty() || m < 1) return 0;
+		vector<int> dp(m + 1, 0);
+
+		for (int i = 0; i < A.size(); i++) {
+			for (int j = m; j >= 0; j--) {
+				if (j >= A[i]) {
+					dp[j] = max(dp[j], dp[j - A[i]] + A[i]);
+				}
+			}
+		}
+
+		return dp[m];
+	}
+};
+
 /*
 int main(int argc, char *argv[]) {
 	Solution s;
