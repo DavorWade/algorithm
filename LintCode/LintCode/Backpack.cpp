@@ -40,7 +40,7 @@ public:
 	}
 };
 
-class Solution {
+class Solution_1D {
 public:
 	/**
 	* http://www.lintcode.com/en/problem/backpack/

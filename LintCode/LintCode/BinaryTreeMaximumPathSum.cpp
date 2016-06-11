@@ -15,33 +15,54 @@ public:
 };
 
 class Solution {
+private:
+	class PathSumType {
+	public:
+		int singlePathMax;
+		int combinedPathMax;
+		PathSumType(int singlePathMax, int combinedPathMax) {
+			this->singlePathMax = singlePathMax;
+			this->combinedPathMax = combinedPathMax;
+		}
+	};
+
+	PathSumType helper(TreeNode *root) {
+		if (root == nullptr) return PathSumType(0, INT_MIN);
+		PathSumType left = helper(root->left);
+		PathSumType right = helper(root->right);
+
+		int singlePathMax = max(left.singlePathMax, right.singlePathMax) + root->val;
+		singlePathMax = max(0, singlePathMax);
+
+		int combinedPathMax = max(left.combinedPathMax, right.combinedPathMax);
+		combinedPathMax = max(combinedPathMax, left.singlePathMax + right.singlePathMax + root->val);
+
+		return PathSumType(singlePathMax, combinedPathMax);
+	}
+
 public:
 	/**
 	* @param root: The root of binary tree.
 	* @return: An integer
 	*/
 	int maxPathSum(TreeNode *root) {
-		// write your code here
-		if (NULL == root) return 0;
-
-		return helper(root).second;
-	}
-private:
-	pair<int, int> helper(TreeNode *root) {
-		if (NULL == root) {
-			return make_pair(0, INT_MIN);
-		}
-
-		pair<int, int> leftTree = helper(root->left);
-		pair<int, int> rightTree = helper(root->right);
-
-		int single_path_sum = max(leftTree.first, rightTree.first) + root->val;
-		single_path_sum = max(0, single_path_sum);
-
-		int max_sub_sum = max(leftTree.second, rightTree.second);
-		int max_path_sum = root->val + leftTree.first + rightTree.first;
-		max_path_sum = max(max_sub_sum, max_path_sum);
-
-		return make_pair(single_path_sum, max_path_sum);
+		// write your code her
+		return helper(root).combinedPathMax;
 	}
 };
+
+/*
+int main(int argv, char *argc[]) {
+	TreeNode *root = new TreeNode(1);
+	root->left = new TreeNode(2);
+	root->right = new TreeNode(3);
+	
+	Solution s;
+	int m = s.maxPathSum(root);
+	printf("%d", m);
+
+	printf("\n");
+	system("pause");
+	return 0;
+}
+*/
