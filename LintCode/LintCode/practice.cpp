@@ -31,12 +31,19 @@ void yanghui_triangle(const int n) {
 	}
 }
 
+int aplusb(int a, int b) {
+	while (b) {
+		int carry = a & b;
+		a ^= b;
+		b = carry << 1;
+	}
+	return a;
+}
+
 /*
 int main(int argc, char *argv[]) {
-	int dimension = 2;
-	vector<vector<int>> dp(dimension, vector<int>(dimension));
-	dp[0][0] = 1;
-	printf("dp[0][0]:%d", dp[0][0]);
+	int rs = aplusb(2, 4);
+	printf("%d", rs);
 
 	printf("\n");
 	system("pause");

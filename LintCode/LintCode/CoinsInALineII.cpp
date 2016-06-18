@@ -35,6 +35,6 @@ public:
 		for (int j = 0; j < len; j++) {
 			total += values[j];
 		}
-		return dp[0] >(total - dp[0]) ? true : false;
+		return dp[0] > (total - dp[0]) ? true : false;
 	}
 };
