@@ -10,7 +10,7 @@ public:
 	/**
 	* @param values: a vector of integers
 	* @return: a boolean which equals to true if the first player will win
-	* dp[i]表示从i到end能取到的最大value
+	* dp[i]表示第一个人从i到end能取到的最大value
 	* 2016-6-18
 	*/
 	bool firstWillWin(vector<int> &values) {
