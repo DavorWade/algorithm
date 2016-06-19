@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <vector>
+#include <string.h>
 
 using namespace std;
 
@@ -9,18 +10,28 @@ public:
 	/**
 	* @param s a string,  encoded message
 	* @return an integer, the number of ways decoding
+	* dp[i] represent the ways of decoding from 1 to i.
 	*/
 	int numDecodings(string& s) {
 		// Write your code here
-		vector<int> dp(s.size() + 1, 0);
+		if (s.size() < 1) return 0;
+		vector<int> dp(s.size() + 1, 1);
 		dp[1] = 1;
-		for (int i = 2; i <= s.size(); i++) {
+
+		for (unsigned int i = 2; i <= s.size(); i++) {
+			if (int(s[i - 1] - '0') == 0 && i < s.size() && int(s[i] - '0') == 0) return 0;
 			string tem;
-			char *dig;
-			tem.append(s, i-1, 2);
+			char *dig = new char[3];
+			int tem_digtial;
+
+			tem.append(s, i-2, 2);
+			printf("tem:%s", tem);
 			strcpy(dig, tem.c_str());
-			int tem_digtial = atoi(dig);
+			tem_digtial = atoi(dig);
+			printf("tem_digtial:%d", tem_digtial);
+
 			if (tem_digtial > 26) dp[i] = dp[i - 1];
+			else if (int(s[i - 1] - '0') == 0) dp[i] = dp[i - 2];
 			else dp[i] = dp[i - 1] + dp[i - 2];
 		}
 
@@ -29,10 +40,11 @@ public:
 };
 
 int main(int argc, char *argv[]) {
-	string s = "12";
+	string s = "19261001";
 	Solution sol;
 	int rs = sol.numDecodings(s);
 	printf("%d", rs);
+	printf("hello");
 
 	printf("\n");
 	system("pause");
