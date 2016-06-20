@@ -24,15 +24,22 @@ public:
 			char *dig = new char[3];
 			int tem_digtial;
 
-			tem.append(s, i-2, 2);
-			printf("tem:%s", tem);
+			tem.append(s, i - 2, 2);
 			strcpy(dig, tem.c_str());
 			tem_digtial = atoi(dig);
-			printf("tem_digtial:%d", tem_digtial);
 
-			if (tem_digtial > 26) dp[i] = dp[i - 1];
-			else if (int(s[i - 1] - '0') == 0) dp[i] = dp[i - 2];
-			else dp[i] = dp[i - 1] + dp[i - 2];
+			if (tem_digtial > 26) {
+				if (tem_digtial % 10 == 0) {
+					return 0;
+				}
+				dp[i] = dp[i - 1];
+			}
+			else if (int(s[i - 1] - '0') == 0) {
+				dp[i] = dp[i - 2];
+			}
+			else {
+				dp[i] = dp[i - 1] + dp[i - 2];
+			}
 		}
 
 		return dp[s.size()];
