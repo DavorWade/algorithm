@@ -43,6 +43,7 @@ public:
 	}
 };
 
+/*
 int main(int argc, char *argv[]) {
 	string s = "11111878787676172120121101212918291829819";
 	Solution sol;
@@ -50,5 +51,7 @@ int main(int argc, char *argv[]) {
 	printf("%d", rs);
 
 	printf("\n");
+	system("pause");
 	return 0;
 }
+*/
