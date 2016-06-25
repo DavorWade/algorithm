@@ -23,16 +23,16 @@ public:
 			if (s[i - 1] != '0') {
 				dp[i] = dp[i - 1];
 			}
+
 			if (s[i - 2] != '0') {
 				string tem;
 				char *dig = new char[3];
 				int tem_digtial;
 
 				tem.append(s, i - 2, 2);
-				//printf("tem:%s\n", tem.c_str());
 				strcpy(dig, tem.c_str());
 				tem_digtial = atoi(dig);
-				//printf("tem_digtial:%d\n", tem_digtial);
+
 				if (tem_digtial <= 26) {
 					dp[i] += dp[i - 2];
 				}
