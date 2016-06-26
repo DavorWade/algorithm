@@ -6,6 +6,7 @@
 
 using namespace std;
 
+/*
 int main()
 {
 	int n, m;
@@ -55,3 +56,4 @@ int main()
 	//system("pause");
 	return  0;
 }
+*/
