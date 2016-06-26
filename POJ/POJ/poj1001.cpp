@@ -114,6 +114,7 @@ void Exponentiation()
 	}
 }
 
+/*
 int main(int argc, char *argv[])
 {
 	Exponentiation();
@@ -121,3 +122,4 @@ int main(int argc, char *argv[])
 	//system("pause");
 	return  0;
 }
+*/
