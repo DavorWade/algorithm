@@ -24,5 +24,8 @@
     <ClCompile Include="poj1002.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="poj1007.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
