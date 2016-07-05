@@ -12,10 +12,11 @@ void processCode(char *s, map<string, int> &rs) {
 	string decode;
 
 	for (unsigned int i = 0; i < strlen(s); i++) {
-		if (decode.length() == 3) {
-			decode += '-';
-		}
 		if (s[i] != '-') {
+			if (decode.length() == 3) {
+				decode += '-';
+			}
+
 			if (int(s[i] - 'A') < 0) { //s[i] = '0'...'9'
 				decode += s[i];
 			}
@@ -45,10 +46,15 @@ void processCode(char *s, map<string, int> &rs) {
 }
 
 void printRs(map<string, int> &rs) {
+	int dup_num = 0;
 	map<string, int>::iterator it;
 	for (it = rs.begin(); it != rs.end(); it++) {
-		if (it->second > 1) cout << it->first << " " << it->second << endl;
+		if (it->second > 1) {
+			cout << it->first << " " << it->second << endl;
+			dup_num++;
+		}
 	}
+	if (dup_num == 0) cout << "No duplicates." << endl;
 }
 
 int main(int argc, char *argv[]) {
