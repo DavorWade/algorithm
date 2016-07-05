@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Backpack.cpp" />
+    <ClCompile Include="BackpackII.cpp" />
     <ClCompile Include="BinaryTreeMaximumPathSum.cpp" />
     <ClCompile Include="ClimbingStairs_m_steps.cpp" />
     <ClCompile Include="CoinsInALineII.cpp" />

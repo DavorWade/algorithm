@@ -45,5 +45,8 @@
     <ClCompile Include="DecodeWays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BackpackII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
