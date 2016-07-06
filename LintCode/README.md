@@ -9,3 +9,5 @@
 7. [Longest Increasing Continuous Subsequence_DP](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LongestIncreasingContinuousSubsequence_DP.cpp)
 8. [Tree_traverse](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Tree_traverse.cpp)
 9. [Unique Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniquePaths.cpp)
+10. [Distinct Subsequences](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DistinctSubsequences.cpp)
+11. [Triangle](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Triangle.cpp)
