@@ -22,6 +22,7 @@
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
     <ClCompile Include="practice.cpp" />
     <ClCompile Include="Tree_traverse.cpp" />
+    <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
