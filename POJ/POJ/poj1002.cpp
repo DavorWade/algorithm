@@ -57,6 +57,7 @@ void printRs(map<string, int> &rs) {
 	if (dup_num == 0) cout << "No duplicates." << endl;
 }
 
+/*
 int main(int argc, char *argv[]) {
 	int n;
 	scanf("%d", &n);
@@ -72,3 +73,4 @@ int main(int argc, char *argv[]) {
 	system("pause");
 	return 0;
 }
+*/
