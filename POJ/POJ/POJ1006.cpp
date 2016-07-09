@@ -9,6 +9,7 @@
 using namespace std;
 
 //http://blog.csdn.net/u010885899/article/details/47253689
+//http://www.cnblogs.com/walker01/archive/2010/01/23/1654880.html
 
 int main() {
 	int a, b, c, d, j = 1;
