@@ -31,14 +31,26 @@ void yanghui_triangle(const int n) {
 	}
 }
 
-int aplusb(int a, int b) {
-	while (b) {
-		int carry = a & b;
-		a ^= b;
-		b = carry << 1;
+class Solution {
+public:
+	/**
+	* @param nums: A list of integers
+	* @return: A integer indicate the sum of max subarray
+	*/
+	int maxSubArray(vector<int> nums) {
+		// write your code here
+		int max_ending_here = nums[0];
+		int max_so_far = nums[0];
+
+		for (int i = 0; i < nums.size(); i++) {
+			max_ending_here = max(max_ending_here + nums[i], nums[i]);
+			max_so_far = max(max_so_far, max_ending_here);
+		}
+
+		return max_so_far;
 	}
-	return a;
-}
+};
+
 
 /*
 int main(int argc, char *argv[]) {

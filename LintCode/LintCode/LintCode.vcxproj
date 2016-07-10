@@ -13,6 +13,7 @@
   <ItemGroup>
     <ClCompile Include="Backpack.cpp" />
     <ClCompile Include="BackpackII.cpp" />
+    <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BinaryTreeMaximumPathSum.cpp" />
     <ClCompile Include="ClimbingStairs_m_steps.cpp" />
     <ClCompile Include="CoinsInALineII.cpp" />
@@ -20,6 +21,7 @@
     <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
+    <ClCompile Include="MajorityNumber.cpp" />
     <ClCompile Include="practice.cpp" />
     <ClCompile Include="Tree_traverse.cpp" />
     <ClCompile Include="Triangle.cpp" />
