@@ -1,6 +1,6 @@
 ## LintCode
 
-### Dynamic Programming
+#### Dynamic Programming
 * [Back pack](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Backpack.cpp)
 * [Back pack II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackII.cpp)
 * [Binary Tree Maximum Path Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeMaximumPathSum.cpp)
@@ -14,5 +14,5 @@
 * [Triangle](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Triangle.cpp)
 * [Unique Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniquePaths.cpp)
 
-### Greedy
+#### Greedy
 * [Majority Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MajorityNumber.cpp)
