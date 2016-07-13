@@ -47,6 +47,7 @@ public:
 	}
 };
 
+/*
 int main(int argc, char *argv[]) {
 	TreeNode *root = new TreeNode(1);
 	TreeNode *a = new TreeNode(2);
@@ -65,3 +66,4 @@ int main(int argc, char *argv[]) {
 	system("pause");
 	return 0;
 }
+*/
