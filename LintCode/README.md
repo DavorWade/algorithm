@@ -13,7 +13,7 @@
 * [Triangle](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Triangle.cpp)
 * [Unique Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniquePaths.cpp)
 
-#### Divide and Conquer / recursion
+#### Divide and Conquer / Recursion
 * [Balanced Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BalancedBinaryTree.cpp)
 * [Binary Tree Maximum Path Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeMaximumPathSum.cpp)
 * [Binary Tree Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePaths.cpp)
