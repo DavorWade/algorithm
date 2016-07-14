@@ -17,6 +17,7 @@
 * [Balanced Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BalancedBinaryTree.cpp)
 * [Binary Tree Maximum Path Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeMaximumPathSum.cpp)
 * [Binary Tree Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePaths.cpp)
+* [Binary Tree Postorder Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePostorderTraversal.cpp)
 
 #### Greedy
 * [Majority Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MajorityNumber.cpp)
