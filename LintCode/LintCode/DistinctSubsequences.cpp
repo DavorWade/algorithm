@@ -12,7 +12,7 @@ public:
 	*/
 	int numDistinct(string &S, string &T) {
 		// write your code here
-		//æ»šåŠ¨æ•°ç»„
+		//¹ö¶¯Êý×é
 		if (S.size() < T.size()) return 0;
 		vector<int> dp(T.size() + 1, 0);
 		dp[0] = 1;//used as a 
