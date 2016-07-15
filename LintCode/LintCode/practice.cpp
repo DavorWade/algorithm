@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <vector>
-#include <stack>
 #include <queue>
 #include <string.h>
 
@@ -31,26 +30,42 @@ void yanghui_triangle(const int n) {
 	}
 }
 
-class Solution {
+class TreeNode {
 public:
-	/**
-	* @param nums: A list of integers
-	* @return: A integer indicate the sum of max subarray
-	*/
-	int maxSubArray(vector<int> nums) {
-		// write your code here
-		int max_ending_here = nums[0];
-		int max_so_far = nums[0];
-
-		for (int i = 0; i < nums.size(); i++) {
-			max_ending_here = max(max_ending_here + nums[i], nums[i]);
-			max_so_far = max(max_so_far, max_ending_here);
-		}
-
-		return max_so_far;
+	int val;
+	TreeNode *left, *right;
+	TreeNode(int val) {
+		this->val = val;
+		this->left = this->right = NULL;
 	}
 };
 
+class Solution {
+public:
+	/**
+	* @param S, T: Two string.
+	* @return: Count the number of distinct subsequences
+	*/
+	int numDistinct(string &S, string &T) {
+		// write your code here
+		if (S.size() < T.size()) return 0;
+		vector<vector<int> > dp(T.size() + 1, vector<int>(S.size() + 1, 0));
+		for (int i = 0; i < S.size(); i++) {
+			dp[0][i] = 1;
+		}
+
+		for (int i = 1; i < S.size(); i++) {
+			for (int j = 1; j < T.size(); j++) {
+				if (T[j] == S[i])
+					dp[j][i] = dp[j][i - 1] + dp[j - 1][i-1];
+				else
+					dp[j][i] = dp[j][i - 1];
+			}
+		}
+
+		return dp[T.size()][S.size()];
+	}
+};
 
 /*
 int main(int argc, char *argv[]) {
@@ -62,3 +77,5 @@ int main(int argc, char *argv[]) {
 	return 0;
 }
 */
+
+
