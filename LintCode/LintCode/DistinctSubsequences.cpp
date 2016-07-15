@@ -31,7 +31,7 @@ public:
 		return dp[T.size()];
 
 
-		// ถþฮฌสýื้
+		// 2-D array
 		/*if (S.size() < T.size()) return 0;
 		if (T.size() == 0) return 1;
 		vector<vector<int> > dp(T.size() + 1, vector<int>(S.size() + 1, 0));
