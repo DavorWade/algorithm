@@ -30,5 +30,11 @@
     <ClCompile Include="POJ1006.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="POJ2386.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POJ1008.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
