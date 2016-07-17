@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{53023A5F-6D8D-458F-BE72-9CC3B3BEBCF1}</ProjectGuid>
+    <ProjectGuid>{F01A0829-9385-40B7-AB83-030028D621FC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>HihoCoder</RootNamespace>
   </PropertyGroup>

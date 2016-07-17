@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HihoCoder", "HihoCoder\HihoCoder.vcxproj", "{53023A5F-6D8D-458F-BE72-9CC3B3BEBCF1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HihoCoder", "HihoCoder\HihoCoder.vcxproj", "{F01A0829-9385-40B7-AB83-030028D621FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{53023A5F-6D8D-458F-BE72-9CC3B3BEBCF1}.Debug|Win32.ActiveCfg = Debug|Win32
-		{53023A5F-6D8D-458F-BE72-9CC3B3BEBCF1}.Debug|Win32.Build.0 = Debug|Win32
-		{53023A5F-6D8D-458F-BE72-9CC3B3BEBCF1}.Release|Win32.ActiveCfg = Release|Win32
-		{53023A5F-6D8D-458F-BE72-9CC3B3BEBCF1}.Release|Win32.Build.0 = Release|Win32
+		{F01A0829-9385-40B7-AB83-030028D621FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F01A0829-9385-40B7-AB83-030028D621FC}.Debug|Win32.Build.0 = Debug|Win32
+		{F01A0829-9385-40B7-AB83-030028D621FC}.Release|Win32.ActiveCfg = Release|Win32
+		{F01A0829-9385-40B7-AB83-030028D621FC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
