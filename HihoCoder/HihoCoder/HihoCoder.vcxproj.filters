@@ -18,5 +18,8 @@
     <ClCompile Include="GiveMyTextBack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BrowserCaching.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
