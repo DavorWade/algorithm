@@ -74,11 +74,12 @@ public:
 
 		for (int i = 0; i < rs.size(); i++) {
 			if (rs[i] != "") {
+				//cout << "rs[" << i << "]:" << rs[i] << endl;
 				if (rs[i] == ","){
 					originSen.append(",");
 				}
 				else if (rs[i] == "."){
-					originSen.append(". ");
+					originSen.append(".");
 					isCapital = true;
 				}
 				else {
@@ -86,12 +87,20 @@ public:
 					if (isCapital || i == 0) {
 						locale loc;
 						rs[i][0] = toupper(rs[i][0], loc);
+						if (i != 0) originSen.append(" ");
 						originSen.append(rs[i]);
 					}
 					else {
 						originSen.append(" ");
 						originSen.append(rs[i]);
 					}
+
+					if (rs[i].find('.') != string::npos){
+						isCapital = true;
+						//cout << "ahf:" << rs[i] << endl;
+					}
+					else
+						isCapital = false;
 				}
 			}
 		}

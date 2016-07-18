@@ -49,6 +49,7 @@ Internet
 Internet
 */
 
+/*
 int main() {
 	string url;
 	bool isCached = false;
@@ -98,4 +99,4 @@ int main() {
 
 	system("pause");
 	return 0;
-}
+}*/
