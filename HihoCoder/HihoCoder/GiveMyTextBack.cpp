@@ -95,10 +95,8 @@ public:
 						originSen.append(rs[i]);
 					}
 
-					if (rs[i].find('.') != string::npos){
+					if (rs[i].find('.') != string::npos) 
 						isCapital = true;
-						//cout << "ahf:" << rs[i] << endl;
-					}
 					else
 						isCapital = false;
 				}
