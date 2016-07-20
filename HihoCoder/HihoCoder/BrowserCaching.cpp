@@ -58,7 +58,7 @@ int main() {
 	cin >> n >> m;
 	getchar();
 	vector<string> cache(m, "");
-	vector<int> urlCount(m, 0);
+	vector<int> urlLeastUsedTime(m, 0);
 
 	for (int i = 0; i < n; i++) {
 		cin >> url;
@@ -68,28 +68,28 @@ int main() {
 
 		for (int j = 0; j < m; j++) {
 			if (cache[j] == url) {
-				urlCount[j] = i;
+				urlLeastUsedTime[j] = i;
 				isCached = true;
 				printf("Cache\n");
 			}
 		}
 		if (!isCached) {
 			if (currPos >= m) {
-				int leastUsed = urlCount[0];
+				int leastUsed = urlLeastUsedTime[0];
 				int leastUsedIndex = 0;
 				for (int j = 1; j < m; j++) {
-					if (leastUsed > urlCount[j]) {
-						leastUsed = urlCount[j];
+					if (leastUsed > urlLeastUsedTime[j]) {
+						leastUsed = urlLeastUsedTime[j];
 						leastUsedIndex = j;
 					}
 				}
 
 				cache[leastUsedIndex] = url;
-				urlCount[leastUsedIndex] = i;
+				urlLeastUsedTime[leastUsedIndex] = i;
 			}
 			else {
 				cache[currPos] = url;
-				urlCount[currPos] = i;
+				urlLeastUsedTime[currPos] = i;
 				currPos++;
 			}
 			printf("Internet\n");
