@@ -1,8 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <iostream>
 #include <vector>
 #include <queue>
+#include <stack>
 #include <string.h>
+#include <string>
+#include <sstream>
+#include <locale>
+
 
 using namespace std;
 
@@ -41,31 +47,120 @@ public:
 };
 
 class Solution {
-public:
 	/**
-	* @param S, T: Two string.
-	* @return: Count the number of distinct subsequences
+	* @param root: The root of binary tree.
+	* @return: Postorder in vector which contains node values.
 	*/
-	int numDistinct(string &S, string &T) {
+public:
+	vector<int> postorderTraversal(TreeNode *root) {
 		// write your code here
-		if (S.size() < T.size()) return 0;
-		vector<vector<int> > dp(T.size() + 1, vector<int>(S.size() + 1, 0));
-		for (int i = 0; i < S.size(); i++) {
-			dp[0][i] = 1;
-		}
+		vector<int> rs;
+		stack<TreeNode *> s;
+		TreeNode *p, *q;
+		p = root;
 
-		for (int i = 1; i < S.size(); i++) {
-			for (int j = 1; j < T.size(); j++) {
-				if (T[j] == S[i])
-					dp[j][i] = dp[j][i - 1] + dp[j - 1][i-1];
-				else
-					dp[j][i] = dp[j][i - 1];
+		do {
+			while (p != nullptr) {
+				s.push(p);
+				p = p->left;
+			}
+
+			q = nullptr;
+			while (!s.empty()){
+				p = s.top();
+				s.pop();
+
+				if (p->right == q) {
+					rs.push_back(p->val);
+					q = p;
+				}
+				else {
+					s.push(p);
+					p = p->right;
+					break;
+				}
+			}
+		} while (!s.empty());
+
+		return rs;
+	}
+};
+
+class Sentence {
+private:
+	vector<string> &split(const string &s, char delim, vector<string> &elems) {
+		stringstream ss(s);
+		string item;
+		while (getline(ss, item, delim)) {
+			elems.push_back(item);
+		}
+		return elems;
+	}
+
+	vector<string> split(const string &s, char delim) {
+		vector<string> elems;
+		split(s, delim, elems);
+		return elems;
+	}
+
+public:
+	string process(const string s) {
+		string originSen;
+		bool isCapital = false;
+		vector<string> rs;
+		char delim = ' ';
+
+		rs = split(s, delim);
+
+		for (int i = 0; i < rs.size(); i++) {
+			if (rs[i] != "") {
+				if (rs[i] == ","){
+					originSen.append(",");
+				}
+				else if (rs[i] == "."){
+					originSen.append(". ");
+					isCapital = true;
+				}
+				else {
+					transform(rs[i].begin(), rs[i].end(), rs[i].begin(), ::tolower);
+					if (isCapital || i == 0) {
+						locale loc;
+						rs[i][0] = toupper(rs[i][0], loc);
+						originSen.append(rs[i]);
+					}
+					else {
+						originSen.append(" ");
+						originSen.append(rs[i]);
+					}
+				}
 			}
 		}
 
-		return dp[T.size()][S.size()];
+		return originSen;
 	}
+
 };
+
+
+int main() {
+	vector<string> data;
+	string tem;
+	Sentence s;
+
+	getline(cin, tem);
+	while (tem != "") {
+		data.push_back(tem);
+		getline(cin, tem);
+	}
+
+	for (int i = 0; i < data.size(); i++) {
+		string rs = s.process(data[i]);
+		cout << rs << endl;
+	}
+
+	system("pause");
+	return 0;
+}
 
 /*
 int main(int argc, char *argv[]) {
@@ -77,5 +172,3 @@ int main(int argc, char *argv[]) {
 	return 0;
 }
 */
-
-

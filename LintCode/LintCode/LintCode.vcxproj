@@ -20,6 +20,7 @@
     <ClCompile Include="ClimbingStairs_m_steps.cpp" />
     <ClCompile Include="CoinsInALineII.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
+    <ClCompile Include="DeleteDigits.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
