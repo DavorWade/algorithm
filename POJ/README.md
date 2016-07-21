@@ -9,5 +9,5 @@
 7. 
 
 
-## Depth First Search
+### Depth First Search
 1. [POJ2386](https://github.com/DavorWade/algorithm/blob/master/POJ/POJ/POJ2386.cpp)
