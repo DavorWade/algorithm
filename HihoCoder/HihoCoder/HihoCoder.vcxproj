@@ -80,6 +80,7 @@
   <ItemGroup>
     <ClCompile Include="BrowserCaching.cpp" />
     <ClCompile Include="GiveMyTextBack.cpp" />
+    <ClCompile Include="HihoCoder1054.cpp" />
     <ClCompile Include="NatureNumbers.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
