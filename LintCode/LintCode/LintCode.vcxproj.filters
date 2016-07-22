@@ -75,5 +75,8 @@
     <ClCompile Include="CombinationSumII.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CombinationSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -19,6 +19,7 @@
     <ClCompile Include="BinaryTreePostorderTraversal.cpp" />
     <ClCompile Include="ClimbingStairs_m_steps.cpp" />
     <ClCompile Include="CoinsInALineII.cpp" />
+    <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DeleteDigits.cpp" />
