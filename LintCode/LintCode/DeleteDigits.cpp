@@ -43,6 +43,7 @@ public:
 	}
 };
 
+/*
 int main(int argc, char *argv[]){
 	Solution s;
 	string rs = s.DeleteDigits("123456789", 2);
@@ -51,4 +52,4 @@ int main(int argc, char *argv[]){
 
 	system("pause");
 	return 0;
-}
+}*/

@@ -72,5 +72,8 @@
     <ClCompile Include="DeleteDigits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CombinationSumII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
