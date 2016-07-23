@@ -24,6 +24,7 @@
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DeleteDigits.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
+    <ClCompile Include="FastPower.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
     <ClCompile Include="MajorityNumber.cpp" />

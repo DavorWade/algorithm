@@ -50,7 +50,6 @@ public:
 			else {
 				helper(num, target, sum + num[n], n + 1, currCombination, rs);
 			}
-
 		}
 	}
 };

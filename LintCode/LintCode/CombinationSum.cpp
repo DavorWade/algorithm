@@ -64,6 +64,5 @@ public:
 				helper(num, target, sum + num[n], n + 1, currCombination, rs);
 			}
 		}
-		return false;
 	}
 };

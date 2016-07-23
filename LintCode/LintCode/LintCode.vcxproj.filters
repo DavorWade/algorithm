@@ -78,5 +78,8 @@
     <ClCompile Include="CombinationSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FastPower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
