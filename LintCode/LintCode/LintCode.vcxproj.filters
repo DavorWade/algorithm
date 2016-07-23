@@ -81,5 +81,8 @@
     <ClCompile Include="FastPower.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Pow(x, n).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
