@@ -42,6 +42,7 @@ void getNth(long long &n) {
 	printf("%d\n", rs);
 }
 
+/*
 int main() {
 	long long n;
 	scanf("%lld", &n);
@@ -51,4 +52,4 @@ int main() {
 
 	system("pause");
 	return 0;
-}
+}*/

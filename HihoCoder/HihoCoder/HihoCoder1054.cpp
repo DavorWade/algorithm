@@ -39,6 +39,7 @@ void depSearch(int leftPoint, int currPointCount, int currEdgeCount) {
 	}
 }
 
+/*
 int main() {
 	int n, m, a, b;
 	scanf("%d", &n);
@@ -71,3 +72,4 @@ int main() {
 
 	return 0;
 }
+*/

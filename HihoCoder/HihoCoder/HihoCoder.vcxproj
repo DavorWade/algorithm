@@ -78,10 +78,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryWatch.cpp" />
     <ClCompile Include="BrowserCaching.cpp" />
+    <ClCompile Include="CountingIslandsII.cpp" />
     <ClCompile Include="GiveMyTextBack.cpp" />
+    <ClCompile Include="HihoCoder1039.cpp" />
     <ClCompile Include="HihoCoder1054.cpp" />
     <ClCompile Include="NatureNumbers.cpp" />
+    <ClCompile Include="PopularProducts.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

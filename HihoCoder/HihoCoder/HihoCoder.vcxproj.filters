@@ -27,5 +27,17 @@
     <ClCompile Include="HihoCoder1054.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HihoCoder1039.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryWatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PopularProducts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CountingIslandsII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
