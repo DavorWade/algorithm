@@ -3,55 +3,102 @@
 #include <string>
 #include <set>
 #include <iostream>
+#include <algorithm>
+#include <vector>
 
 using namespace std;
-/*
-Consider a binary watch with 5 binary digits to display hours (00 - 23) and 6 binary digits to display minutes (00 - 59).
 
-For example 11:26 is displayed as 01011:011010.
+vector<string> getCombinations(int n, int r) {
+	vector<string> combination;
+	vector<bool> v(n);
+	fill(v.begin(), v.begin() + r, true);
 
-Given a number x, output all times in human-readable format "hh:mm" when exactly x digits are 1.
-
- ‰»Î
-An integer x. (0 °‹ x °‹ 9)
-
- ‰≥ˆ
-All times in increasing order.
-*/
-set<string> rs;
-string hour = "10111";
-string minite = "111011";
-string maxTime = "10111111011";
-bool getTime(int x, int oneCount, int index, string time, set<string> &rs) {
-	string tem = time;
-	if (oneCount == x) {
-		if (time <= maxTime) {
-			rs.insert(time);
-			return true;
+	do {
+		string tem;
+		for (int i = 0; i < n; ++i) {
+			if (v[i]) {
+				tem += to_string(i);
+			}
 		}
-		return false;
-	}
+		if (tem != "") combination.push_back(tem);
+	} while (prev_permutation(v.begin(), v.end()));
 
-	getTime(x, oneCount, index + 1, tem, rs);
-
-	tem[index] = '1';
-	getTime(x, oneCount + 1, index + 1, tem, rs);
+	return combination;
 }
 
+vector<int> processTime(vector<string> &time, int maxTime) {
+	vector<int> timeList;
+	for (int i = 0; i < time.size(); i++) {
+		string tem = time[i];
+		int humanTime = 0;
+
+		for (int j = 0; j < tem.length(); j++) {
+			int n = tem[j] - '0';
+			humanTime += pow(2, n);
+		}
+		if (humanTime < maxTime) timeList.push_back(humanTime);
+	}
+	return timeList;
+}
+
+/*
 int main(){
-	string time = "00000000000";
+	set<string> rs;
 	int x;
 	scanf("%d", &x);
 	if (x == 0) {
 		printf("00:00\n");
 		return 0;
 	}
-	//int right = x < 6 ? x : 5;
-	//int left = x - right;
-	//int n = right;
+	int right = x < 6 ? x : 5;
+	int left = max(0, x - right);
+	int n = right;
 
-	getTime(x, 0, 0, time, rs);
-	
+	while (right >= 0 && left < 5) {
+		vector<string> r;
+		vector<string> l;
+		r = getCombinations(6, right);
+		l = getCombinations(5, left);
+		vector<int> rr = processTime(r, 60);
+		vector<int> ll = processTime(l, 24);
+		
+		if (ll.empty()) {
+			for (int i = 0; i < rr.size(); i++) {
+				string tem = "";
+				tem += "00:";
+				if (rr[i] < 10) tem += "0";
+				tem += to_string(rr[i]);
+				rs.insert(tem);
+			}
+		}
+		else if (rr.empty()) {
+			for (int i = 0; i < ll.size(); i++) {
+				string tem = "";
+				if (ll[i] < 10) tem += "0";
+				tem += to_string(ll[i]);
+				tem += ":00";
+				rs.insert(tem);
+			}
+		}
+		else {
+			for (int i = 0; i < ll.size(); i++) {
+				for (int j = 0; j < rr.size(); j++) {
+					string tem = "";
+					if (ll[i] < 10) tem += "0";
+					tem += to_string(ll[i]);
+					tem += ":";
+
+					if (rr[j] < 10) tem += "0";
+					tem += to_string(rr[j]);
+					rs.insert(tem);
+				}
+			}
+		}
+
+		right--;
+		left++;
+	}
+
 	for (set<string>::iterator it = rs.begin(); it != rs.end(); it++) {
 		cout << *it << endl;
 	}
@@ -59,3 +106,4 @@ int main(){
 	system("pause");
 	return 0;
 }
+*/

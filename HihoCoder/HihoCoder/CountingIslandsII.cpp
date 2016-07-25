@@ -1,13 +1,80 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <vector>
 #include <string.h>
-#include <algorithm>
-#include <map>
-#include <utility>
 
+/*
+Country H is going to carry out a huge artificial islands project. The project region is divided into a 1000x1000 grid. The whole project will last for N weeks. Each week one unit area of sea will be filled with land.
+
+As a result, new islands (an island consists of all connected land in 4 -- up, down, left and right -- directions) emerges in this region. Suppose the coordinates of the filled units are (0, 0), (1, 1), (1, 0). Then after the first week there is one island:
+*/
 using namespace std;
 
+/*
+int pre[1001];
+int t[1001];
+
+int find_root(int x) {
+	int r = x;
+	if (pre[r] == -1) return -1;
+	while (pre[r] != r) r = pre[r];
+
+	int i, j;
+	i = x;
+	while (pre[i] != r) {
+		j = pre[i];
+		pre[i] = r;
+		i = j;
+	}
+
+	return r;
+}
+
+void union_op(int x, int y) {
+	int fx = find_root(x);
+	int fy = find_root(y);
+	if (fx < 0) {
+		pre[x] = x;
+		fx = x;
+	}
+	if (fy < 0) {
+		pre[y] = y;
+		fy = y;
+	}
+
+	if (fx != fy) pre[fx] = fy;
+}
+
+int main() {
+	int n;
+	scanf("%d", &n);
+
+	for (int i = 0; i < 1001; i++) pre[i] = -1;
+
+	while (n--) {
+		int islandCount = 0;
+		memset(t, 0, sizeof(t));
+		int x, y;
+		scanf("%d %d", &x, &y);
+
+		union_op(x, y);
+
+		for (int i = 0; i < 1001; i++) {
+			int tem = find_root(i);
+			if (tem > -1)
+				t[tem] = 1;
+		}
+		for (int i = 0; i < 1001; i++){
+			if (t[i]) islandCount++;
+		}
+
+		printf("%d\n", islandCount);
+	}
+
+	system("pause");
+	return 0;
+}*/
+
+/*
 typedef pair<int, int> pos;
 
 map<pos, bool> data;
@@ -31,7 +98,7 @@ void depthSearch(pos p) {
 	}
 }
 
-/*
+
 int main() {
 	int n;
 	scanf("%d", &n);
