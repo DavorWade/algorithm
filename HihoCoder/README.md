@@ -18,7 +18,6 @@
 #### Combinatrial Number
 
 * [Binary Watch](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/BinaryWatch.cpp)
-* 
 
 
 #### Disjoint Set
