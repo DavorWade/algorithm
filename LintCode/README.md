@@ -13,12 +13,15 @@
 * [Triangle](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Triangle.cpp)
 * [Unique Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniquePaths.cpp)
 
-#### Divide and Conquer / Recursion (5)
+#### Divide and Conquer / Recursion (8)
 * [Balanced Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BalancedBinaryTree.cpp)
 * [Binary Tree Maximum Path Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeMaximumPathSum.cpp)
 * [Binary Tree Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePaths.cpp)
 * [Binary Tree Postorder Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePostorderTraversal.cpp)
 * [Combination Sum II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CombinationSumII.cpp)
+* [Combination Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CombinationSum.cpp)
+* [Fast Power](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FastPower.cpp)
+* [Pow(x, n)](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Pow(x%2C%20n).cpp)
 
 #### Greedy (3)
 * [Delete Digits](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteDigits.cpp)
