@@ -9,9 +9,12 @@ As a result, new islands (an island consists of all connected land in 4 -- up, d
 */
 using namespace std;
 
-/*
 int pre[1001];
 int t[1001];
+int isFilled[10001][1001];
+int ii[2] = { -1, 1 };
+int jj[2] = { -1, 1 };
+bool isUnioned = false;
 
 int find_root(int x) {
 	int r = x;
@@ -48,6 +51,7 @@ int main() {
 	int n;
 	scanf("%d", &n);
 
+	memset(isFilled, 0, sizeof(isFilled));
 	for (int i = 0; i < 1001; i++) pre[i] = -1;
 
 	while (n--) {
@@ -55,8 +59,46 @@ int main() {
 		memset(t, 0, sizeof(t));
 		int x, y;
 		scanf("%d %d", &x, &y);
+		isFilled[x][y] = 1;
 
-		union_op(x, y);
+		for (int i = 0; i < 2; i++) {
+			int xx = x + ii[i];
+			if (0 <= xx && xx < 1000 && isFilled[xx][y] == 1) {
+				union_op(x, y);
+				union_op(xx, y);
+				isUnioned = true;
+			}
+		}
+		if (!isUnioned) {
+			for (int j = 0; j < 2; j++) {
+				int yy = y + jj[j];
+				if (0 <= yy && yy < 1000 && isFilled[x][yy] == 1) {
+					union_op(x, y);
+					union_op(x, yy);
+					isUnioned = true;
+				}
+			}
+		}
+
+		if (!isUnioned) {
+			printf("no union:%d, %d\n", x, y);
+			int xr = find_root(x);
+			int yr = find_root(y);
+
+			if (xr == -1 && yr == -1) {
+				pre[x] = x;
+				pre[y] = x;
+			}
+			else if (xr != -1 && yr != -1) {
+
+			}
+			else if (xr != -1) {
+				pre[y] = y;
+			}
+			else {
+				pre[x] = x;
+			}
+		}
 
 		for (int i = 0; i < 1001; i++) {
 			int tem = find_root(i);
@@ -72,7 +114,7 @@ int main() {
 
 	system("pause");
 	return 0;
-}*/
+}
 
 /*
 typedef pair<int, int> pos;
