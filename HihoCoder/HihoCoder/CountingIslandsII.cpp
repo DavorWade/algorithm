@@ -47,6 +47,7 @@ void union_op(int x, int y) {
 	if (fx != fy) pre[fx] = fy;
 }
 
+/*
 int main() {
 	int n;
 	scanf("%d", &n);
@@ -114,7 +115,7 @@ int main() {
 
 	system("pause");
 	return 0;
-}
+}*/
 
 /*
 typedef pair<int, int> pos;
