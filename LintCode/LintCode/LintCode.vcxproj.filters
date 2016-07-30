@@ -84,5 +84,11 @@
     <ClCompile Include="Pow(x, n).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeKSortedLists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

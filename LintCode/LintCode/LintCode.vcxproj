@@ -26,8 +26,10 @@
     <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="FastPower.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
+    <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
     <ClCompile Include="MajorityNumber.cpp" />
+    <ClCompile Include="MergeKSortedLists.cpp" />
     <ClCompile Include="Pow(x, n).cpp" />
     <ClCompile Include="practice.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
