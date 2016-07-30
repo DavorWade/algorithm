@@ -1,6 +1,6 @@
 ## HihoCoder
 
-#### String
+#### String (4)
 
 * [Give My Text Back](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/GiveMyTextBack.cpp)
 * [Browser Caching](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/BrowserCaching.cpp)
@@ -8,18 +8,25 @@
 * [HihoCoder1054](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/HihoCoder1054.cpp)
 
 
-#### Math
+#### Combinatrial Number (1)
+
+* [Binary Watch](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/BinaryWatch.cpp)
+
+
+#### Disjoint Set (1)
+
+* [Counting Islands II](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/CountingIslandsII.cpp)
+
+
+#### Math (2)
 
 * [Nature Numbers](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/NatureNumbers.cpp)
 
 * [Popular Products](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/PopularProducts.cpp)
 
 
-#### Combinatrial Number
+#### Queue (1)
 
-* [Binary Watch](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/BinaryWatch.cpp)
+* [Memory Allocating Algorithm](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/MemoryAllocatingAlgorithm.cpp)
 
 
-#### Disjoint Set
-
-* [Counting Islands II](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/CountingIslandsII.cpp)
