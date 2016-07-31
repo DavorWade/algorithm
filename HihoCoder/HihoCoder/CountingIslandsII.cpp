@@ -17,104 +17,104 @@ int jj[2] = { -1, 1 };
 bool isUnioned = false;
 
 int find_root(int x) {
-	int r = x;
-	if (pre[r] == -1) return -1;
-	while (pre[r] != r) r = pre[r];
+    int r = x;
+    if (pre[r] == -1) return -1;
+    while (pre[r] != r) r = pre[r];
 
-	int i, j;
-	i = x;
-	while (pre[i] != r) {
-		j = pre[i];
-		pre[i] = r;
-		i = j;
-	}
+    int i, j;
+    i = x;
+    while (pre[i] != r) {
+        j = pre[i];
+        pre[i] = r;
+        i = j;
+    }
 
-	return r;
+    return r;
 }
 
 void union_op(int x, int y) {
-	int fx = find_root(x);
-	int fy = find_root(y);
-	if (fx < 0) {
-		pre[x] = x;
-		fx = x;
-	}
-	if (fy < 0) {
-		pre[y] = y;
-		fy = y;
-	}
+    int fx = find_root(x);
+    int fy = find_root(y);
+    if (fx < 0) {
+        pre[x] = x;
+        fx = x;
+    }
+    if (fy < 0) {
+        pre[y] = y;
+        fy = y;
+    }
 
-	if (fx != fy) pre[fx] = fy;
+    if (fx != fy) pre[fx] = fy;
 }
 
 /*
 int main() {
-	int n;
-	scanf("%d", &n);
+    int n;
+    scanf("%d", &n);
 
-	memset(isFilled, 0, sizeof(isFilled));
-	for (int i = 0; i < 1001; i++) pre[i] = -1;
+    memset(isFilled, 0, sizeof(isFilled));
+    for (int i = 0; i < 1001; i++) pre[i] = -1;
 
-	while (n--) {
-		int islandCount = 0;
-		memset(t, 0, sizeof(t));
-		int x, y;
-		scanf("%d %d", &x, &y);
-		isFilled[x][y] = 1;
+    while (n--) {
+        int islandCount = 0;
+        memset(t, 0, sizeof(t));
+        int x, y;
+        scanf("%d %d", &x, &y);
+        isFilled[x][y] = 1;
 
-		for (int i = 0; i < 2; i++) {
-			int xx = x + ii[i];
-			if (0 <= xx && xx < 1000 && isFilled[xx][y] == 1) {
-				union_op(x, y);
-				union_op(xx, y);
-				isUnioned = true;
-			}
-		}
-		if (!isUnioned) {
-			for (int j = 0; j < 2; j++) {
-				int yy = y + jj[j];
-				if (0 <= yy && yy < 1000 && isFilled[x][yy] == 1) {
-					union_op(x, y);
-					union_op(x, yy);
-					isUnioned = true;
-				}
-			}
-		}
+        for (int i = 0; i < 2; i++) {
+            int xx = x + ii[i];
+            if (0 <= xx && xx < 1000 && isFilled[xx][y] == 1) {
+                union_op(x, y);
+                union_op(xx, y);
+                isUnioned = true;
+            }
+        }
+        if (!isUnioned) {
+            for (int j = 0; j < 2; j++) {
+                int yy = y + jj[j];
+                if (0 <= yy && yy < 1000 && isFilled[x][yy] == 1) {
+                    union_op(x, y);
+                    union_op(x, yy);
+                    isUnioned = true;
+                }
+            }
+        }
 
-		if (!isUnioned) {
-			printf("no union:%d, %d\n", x, y);
-			int xr = find_root(x);
-			int yr = find_root(y);
+        if (!isUnioned) {
+            printf("no union:%d, %d\n", x, y);
+            int xr = find_root(x);
+            int yr = find_root(y);
 
-			if (xr == -1 && yr == -1) {
-				pre[x] = x;
-				pre[y] = x;
-			}
-			else if (xr != -1 && yr != -1) {
+            if (xr == -1 && yr == -1) {
+                pre[x] = x;
+                pre[y] = x;
+            }
+            else if (xr != -1 && yr != -1) {
 
-			}
-			else if (xr != -1) {
-				pre[y] = y;
-			}
-			else {
-				pre[x] = x;
-			}
-		}
+            }
+            else if (xr != -1) {
+                pre[y] = y;
+            }
+            else {
+                pre[x] = x;
+            }
+        }
 
-		for (int i = 0; i < 1001; i++) {
-			int tem = find_root(i);
-			if (tem > -1)
-				t[tem] = 1;
-		}
-		for (int i = 0; i < 1001; i++){
-			if (t[i]) islandCount++;
-		}
+        for (int i = 0; i < 1001; i++) {
+            int tem = find_root(i);
+            if (tem > -1)
+                t[tem] = 1;
+        }
+        for (int i = 0; i < 1001; i++){
+            if (t[i]) islandCount++;
+        }
 
-		printf("%d\n", islandCount);
-	}
+        printf("%d\n", islandCount);
+    }
 
-	system("pause");
-	return 0;
+    system("pause");
+    return 0;
 }*/
 
 /*

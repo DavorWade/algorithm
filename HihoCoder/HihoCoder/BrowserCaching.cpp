@@ -51,52 +51,52 @@ Internet
 
 /*
 int main() {
-	string url;
-	bool isCached = false;
-	int currPos = 0;
-	int n, m;
-	cin >> n >> m;
-	getchar();
-	vector<string> cache(m, "");
-	vector<int> urlLeastUsedTime(m, 0);
+    string url;
+    bool isCached = false;
+    int currPos = 0;
+    int n, m;
+    cin >> n >> m;
+    getchar();
+    vector<string> cache(m, "");
+    vector<int> urlLeastUsedTime(m, 0);
 
-	for (int i = 0; i < n; i++) {
-		cin >> url;
-		getchar();
-		//getline(cin, url);
-		//cout << "url:" << url << endl;
+    for (int i = 0; i < n; i++) {
+        cin >> url;
+        getchar();
+        //getline(cin, url);
+        //cout << "url:" << url << endl;
 
-		for (int j = 0; j < m; j++) {
-			if (cache[j] == url) {
-				urlLeastUsedTime[j] = i;
-				isCached = true;
-				printf("Cache\n");
-			}
-		}
-		if (!isCached) {
-			if (currPos >= m) {
-				int leastUsed = urlLeastUsedTime[0];
-				int leastUsedIndex = 0;
-				for (int j = 1; j < m; j++) {
-					if (leastUsed > urlLeastUsedTime[j]) {
-						leastUsed = urlLeastUsedTime[j];
-						leastUsedIndex = j;
-					}
-				}
+        for (int j = 0; j < m; j++) {
+            if (cache[j] == url) {
+                urlLeastUsedTime[j] = i;
+                isCached = true;
+                printf("Cache\n");
+            }
+        }
+        if (!isCached) {
+            if (currPos >= m) {
+                int leastUsed = urlLeastUsedTime[0];
+                int leastUsedIndex = 0;
+                for (int j = 1; j < m; j++) {
+                    if (leastUsed > urlLeastUsedTime[j]) {
+                        leastUsed = urlLeastUsedTime[j];
+                        leastUsedIndex = j;
+                    }
+                }
 
-				cache[leastUsedIndex] = url;
-				urlLeastUsedTime[leastUsedIndex] = i;
-			}
-			else {
-				cache[currPos] = url;
-				urlLeastUsedTime[currPos] = i;
-				currPos++;
-			}
-			printf("Internet\n");
-		}
-		isCached = false;
-	}
+                cache[leastUsedIndex] = url;
+                urlLeastUsedTime[leastUsedIndex] = i;
+            }
+            else {
+                cache[currPos] = url;
+                urlLeastUsedTime[currPos] = i;
+                currPos++;
+            }
+            printf("Internet\n");
+        }
+        isCached = false;
+    }
 
-	system("pause");
-	return 0;
+    system("pause");
+    return 0;
 }*/

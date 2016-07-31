@@ -48,83 +48,82 @@ His name is little ho, we are friends.
 
 class Solution {
 private:
-	vector<string> &split(const string &s, char delim, vector<string> &elems) {
-		stringstream ss(s);
-		string item;
-		while (getline(ss, item, delim)) {
-			elems.push_back(item);
-		}
-		return elems;
-	}
+    vector<string> &split(const string &s, char delim, vector<string> &elems) {
+        stringstream ss(s);
+        string item;
+        while (getline(ss, item, delim)) {
+            elems.push_back(item);
+        }
+        return elems;
+    }
 
-	vector<string> split(const string &s, char delim) {
-		vector<string> elems;
-		split(s, delim, elems);
-		return elems;
-	}
+    vector<string> split(const string &s, char delim) {
+        vector<string> elems;
+        split(s, delim, elems);
+        return elems;
+    }
 
 public:
-	string process(const string s) {
-		string originSen;
-		bool isCapital = false;
-		vector<string> rs;
-		char delim = ' ';
+    string process(const string s) {
+        string originSen;
+        bool isCapital = false;
+        vector<string> rs;
+        char delim = ' ';
 
-		rs = split(s, delim);
+        rs = split(s, delim);
 
-		for (int i = 0; i < rs.size(); i++) {
-			if (rs[i] != "") {
-				//cout << "rs[" << i << "]:" << rs[i] << endl;
-				if (rs[i] == ","){
-					originSen.append(",");
-				}
-				else if (rs[i] == "."){
-					originSen.append(".");
-					isCapital = true;
-				}
-				else {
-					transform(rs[i].begin(), rs[i].end(), rs[i].begin(), ::tolower);
-					if (isCapital || i == 0) {
-						locale loc;
-						rs[i][0] = toupper(rs[i][0], loc);
-						if (i != 0) originSen.append(" ");
-						originSen.append(rs[i]);
-					}
-					else {
-						originSen.append(" ");
-						originSen.append(rs[i]);
-					}
+        for (int i = 0; i < rs.size(); i++) {
+            if (rs[i] != "") {
+                //cout << "rs[" << i << "]:" << rs[i] << endl;
+                if (rs[i] == ","){
+                    originSen.append(",");
+                }
+                else if (rs[i] == "."){
+                    originSen.append(".");
+                    isCapital = true;
+                }
+                else {
+                    transform(rs[i].begin(), rs[i].end(), rs[i].begin(), ::tolower);
+                    if (isCapital || i == 0) {
+                        locale loc;
+                        rs[i][0] = toupper(rs[i][0], loc);
+                        if (i != 0) originSen.append(" ");
+                        originSen.append(rs[i]);
+                    }
+                    else {
+                        originSen.append(" ");
+                        originSen.append(rs[i]);
+                    }
 
-					if (rs[i].find('.') != string::npos) 
-						isCapital = true;
-					else
-						isCapital = false;
-				}
-			}
-		}
+                    if (rs[i].find('.') != string::npos)
+                        isCapital = true;
+                    else
+                        isCapital = false;
+                }
+            }
+        }
 
-		return originSen;
-	}
-
+        return originSen;
+    }
 };
 
 /*
 int main() {
-	vector<string> data;
-	string tem;
-	Solution s;
+    vector<string> data;
+    string tem;
+    Solution s;
 
-	getline(cin, tem);
-	while (tem != "") {
-		data.push_back(tem);
-		getline(cin, tem);
-	}
+    getline(cin, tem);
+    while (tem != "") {
+        data.push_back(tem);
+        getline(cin, tem);
+    }
 
-	for (int i = 0; i < data.size(); i++) {
-		string rs = s.process(data[i]);
-		cout << rs << endl;
-	}
+    for (int i = 0; i < data.size(); i++) {
+        string rs = s.process(data[i]);
+        cout << rs << endl;
+    }
 
-	system("pause");
-	return 0;
+    system("pause");
+    return 0;
 }*/
