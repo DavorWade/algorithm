@@ -28,9 +28,11 @@
 * [Combination Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CombinationSum.cpp)
 
 
-#### Divide and Conquer (2)
+#### Divide and Conquer (4)
 
 * [Fast Power](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FastPower.cpp)
+* [Find Minimum In Rotated Sorted Array II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FindMinimumInRotatedSortedArrayII.cpp)
+* [Merge k Sorted Lists](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MergeKSortedLists.cpp)
 * [Pow(x, n)](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Pow(x%2C%20n).cpp)
 
 
