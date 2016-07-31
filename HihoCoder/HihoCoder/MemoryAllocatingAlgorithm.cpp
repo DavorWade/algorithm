@@ -8,7 +8,7 @@
 using namespace std;
 
 struct chunk {
-	int v, s, e;
+    int v, s, e;
 };
 
 int main() {
