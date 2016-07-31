@@ -45,7 +45,6 @@ int solve(string data, vector<string> charactor) {
                             k++;
                             start = k;
                             end = start;
-
                         }
                     }
                 }
