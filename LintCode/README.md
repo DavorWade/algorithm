@@ -34,6 +34,7 @@
 * [Find Minimum In Rotated Sorted Array II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FindMinimumInRotatedSortedArrayII.cpp)
 * [Merge k Sorted Lists](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MergeKSortedLists.cpp)
 * [Pow(x, n)](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Pow(x%2C%20n).cpp)
+* [Validate Binary Search Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ValidateBinarySearchTree.cpp)
 
 
 #### Greedy (3)
