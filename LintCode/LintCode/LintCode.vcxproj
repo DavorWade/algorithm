@@ -36,6 +36,7 @@
     <ClCompile Include="Tree_traverse.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
+    <ClCompile Include="ValidateBinarySearchTree.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E58AD6A4-076B-4703-A01D-EFEF2F075F56}</ProjectGuid>

@@ -90,5 +90,8 @@
     <ClCompile Include="MergeKSortedLists.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ValidateBinarySearchTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
