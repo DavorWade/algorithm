@@ -1,5 +1,10 @@
 ## LintCode
 
+#### Binary Tree (1)
+
+* [Binary Tree Level Order Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeLevelOrderTraversal.cpp)
+
+
 #### Dynamic Programming (11)
 * [Back pack](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Backpack.cpp)
 * [Back pack II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackII.cpp)
@@ -28,7 +33,7 @@
 * [Combination Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CombinationSum.cpp)
 
 
-#### Divide and Conquer (4)
+#### Divide and Conquer (5)
 
 * [Fast Power](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FastPower.cpp)
 * [Find Minimum In Rotated Sorted Array II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FindMinimumInRotatedSortedArrayII.cpp)
@@ -42,3 +47,5 @@
 * [Delete Digits](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteDigits.cpp)
 * [Majority Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MajorityNumber.cpp)
 * [Single Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SingleNumber.cpp)
+
+
