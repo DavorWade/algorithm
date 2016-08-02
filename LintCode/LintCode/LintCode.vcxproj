@@ -14,6 +14,7 @@
     <ClCompile Include="Backpack.cpp" />
     <ClCompile Include="BackpackII.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="BinaryTreeMaximumPathSum.cpp" />
     <ClCompile Include="BinaryTreePaths.cpp" />
     <ClCompile Include="BinaryTreePostorderTraversal.cpp" />
