@@ -11,6 +11,7 @@ struct chunk {
     int v, s, e;
 };
 
+/*
 int main() {
     int n, m;
     scanf("%d%d", &n, &m);
@@ -76,7 +77,7 @@ int main() {
 
     system("pause");
     return 0;
-}
+}*/
 
 /*
 struct Block {
