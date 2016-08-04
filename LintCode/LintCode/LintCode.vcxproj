@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="Backpack.cpp" />
     <ClCompile Include="BackpackII.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
