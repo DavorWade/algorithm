@@ -1,6 +1,15 @@
 ## LintCode
 
-#### Binary Tree (1)
+
+#### Array (4)
+
+* [Two Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TwoSum.cpp)
+* [3 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3Sum.cpp)
+* [3 Sum Closest](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3SumClosest.cpp)
+* [4 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/4Sum.cpp)
+
+
+#### Binary Tree (2)
 
 * [Binary Tree Level Order Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeLevelOrderTraversal.cpp)
 * [	Binary Tree Level Order Traversal II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeLevelOrderTraversalII.cpp)
