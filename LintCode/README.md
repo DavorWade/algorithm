@@ -3,6 +3,7 @@
 
 #### Array (4)
 
+* [Median](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Median.cpp)
 * [Two Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TwoSum.cpp)
 * [3 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3Sum.cpp)
 * [3 Sum Closest](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3SumClosest.cpp)
