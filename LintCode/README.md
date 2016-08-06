@@ -43,7 +43,7 @@
 * [Combination Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CombinationSum.cpp)
 
 
-#### Divide and Conquer (5)
+#### Divide and Conquer (6)
 
 * [Fast Power](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FastPower.cpp)
 * [Find Minimum In Rotated Sorted Array II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FindMinimumInRotatedSortedArrayII.cpp)
