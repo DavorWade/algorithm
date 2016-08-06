@@ -18,15 +18,23 @@
 * [Counting Islands II](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/CountingIslandsII.cpp)
 
 
-#### Math (2)
+#### Math (1)
 
 * [Nature Numbers](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/NatureNumbers.cpp)
-
-* [Popular Products](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/PopularProducts.cpp)
 
 
 #### Queue (1)
 
 * [Memory Allocating Algorithm](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/MemoryAllocatingAlgorithm.cpp)
+
+
+#### Search (1)
+
+* [Popular Products](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/PopularProducts.cpp)
+
+
+#### Tree (1)
+
+* [Tower Defense Game](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/TowerDefenseGame.cpp)
 
 
