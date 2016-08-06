@@ -1,7 +1,7 @@
 ## LintCode
 
 
-#### Array (4)
+#### Array (5)
 
 * [Median](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Median.cpp)
 * [Two Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TwoSum.cpp)
