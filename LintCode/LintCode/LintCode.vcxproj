@@ -37,6 +37,7 @@
     <ClCompile Include="Median.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />
+    <ClCompile Include="PartitionArray.cpp" />
     <ClCompile Include="Pow(x, n).cpp" />
     <ClCompile Include="practice.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
