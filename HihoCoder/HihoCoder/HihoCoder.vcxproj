@@ -84,6 +84,7 @@
     <ClCompile Include="GiveMyTextBack.cpp" />
     <ClCompile Include="HihoCoder1039.cpp" />
     <ClCompile Include="HihoCoder1054.cpp" />
+    <ClCompile Include="HihoCoder1353.cpp" />
     <ClCompile Include="MemoryAllocatingAlgorithm.cpp" />
     <ClCompile Include="NatureNumbers.cpp" />
     <ClCompile Include="PopularProducts.cpp" />

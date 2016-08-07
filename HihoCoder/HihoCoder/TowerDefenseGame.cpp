@@ -27,7 +27,7 @@ void trav(vector<vector<int> > &t, int k, vector<vector<int> > &rs, vector<int> 
         } while (next_permutation(root.begin(), root.end()));
     }
 }
-*/
+
 
 void trav(vector<vector<int> > &t, int k, int count, vector<vector<int> > &rs, vector<int> path) {
     vector<int> root = t[k];
@@ -50,6 +50,7 @@ void trav(vector<vector<int> > &t, int k, int count, vector<vector<int> > &rs, v
     }
 }
 
+/*
 int main() {
     vector<int> p;
     vector<int> q;
@@ -97,7 +98,7 @@ int main() {
     }
     printf("---------------\n\n");
     */
-
+/*
     for (int j = 0; j < rs.size(); j++) {
         for (int k = 0; k < rs[j].size(); k++) {
             printf("%d ", rs[j][k]);
@@ -109,4 +110,4 @@ int main() {
 
     system("pause");
     return 0;
-}
+    }*/
