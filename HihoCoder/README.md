@@ -28,6 +28,11 @@
 * [Memory Allocating Algorithm](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/MemoryAllocatingAlgorithm.cpp)
 
 
+#### DFS (1)
+
+* [HihoCoder1353](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/HihoCoder1353.cpp)
+
+
 #### Search (1)
 
 * [Popular Products](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/PopularProducts.cpp)

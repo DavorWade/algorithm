@@ -1,9 +1,10 @@
 ## LintCode
 
 
-#### Array (5)
+#### Array (6)
 
 * [Median](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Median.cpp)
+* [Median of two Sorted Arrays](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MedianOfTwoSortedArrays.cpp)
 * [Two Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TwoSum.cpp)
 * [3 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3Sum.cpp)
 * [3 Sum Closest](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3SumClosest.cpp)
