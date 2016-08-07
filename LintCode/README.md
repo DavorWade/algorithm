@@ -1,7 +1,7 @@
 ## LintCode
 
 
-#### Array (5)
+#### Array (6)
 
 * [Median](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Median.cpp)
 * [Median of two Sorted Arrays](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MedianOfTwoSortedArrays.cpp)
