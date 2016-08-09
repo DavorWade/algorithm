@@ -24,6 +24,7 @@
     <ClCompile Include="BinaryTreePostorderTraversal.cpp" />
     <ClCompile Include="ClimbingStairs_m_steps.cpp" />
     <ClCompile Include="CoinsInALineII.cpp" />
+    <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
@@ -37,6 +38,8 @@
     <ClCompile Include="Median.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />
+    <ClCompile Include="O(1)CheckPowerOf2.cpp" />
+    <ClCompile Include="PalindromePartitioning.cpp" />
     <ClCompile Include="PartitionArray.cpp" />
     <ClCompile Include="Pow(x, n).cpp" />
     <ClCompile Include="practice.cpp" />
