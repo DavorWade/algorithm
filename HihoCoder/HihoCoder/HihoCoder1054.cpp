@@ -8,9 +8,9 @@ using namespace std;
 
 int rs; // total legal solution
 int totalEdgeCount; //total edge count in every input data
+int totalPointCount; //total point count in result
 int record[10][10]; //store illegal edge
 int data[10][10]; //store edge from input data 
-int pointCount; //total point count in result
 int vis[10]; // is visited
 
 void init() {
@@ -21,7 +21,7 @@ void init() {
 }
 
 void depSearch(int leftPoint, int currPointCount, int currEdgeCount) {
-    if (currPointCount == pointCount && currEdgeCount == totalEdgeCount) {
+    if (currPointCount == totalPointCount && currEdgeCount == totalEdgeCount) {
         rs++;
         return;
     }
@@ -39,7 +39,7 @@ void depSearch(int leftPoint, int currPointCount, int currEdgeCount) {
     }
 }
 
-/*
+/* 
 int main() {
     int n, m, a, b;
     scanf("%d", &n);
@@ -58,7 +58,7 @@ int main() {
 
         rs = 0;
         totalEdgeCount = m;
-        for (pointCount = max(4, m + 1); pointCount < 10; pointCount++) {
+        for (totalPointCount = max(4, m + 1); totalPointCount < 10; totalPointCount++) {
             for (int i = 1; i < 10; i++) {
                 vis[i] = 1;
                 depSearch(i, 1, 0);
