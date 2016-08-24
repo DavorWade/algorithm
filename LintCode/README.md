@@ -53,7 +53,7 @@
 * [O(1) Check Power Of 2](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/O(1)CheckPowerOf2.cpp)
 
 
-#### DFS (1)
+#### DFS (2)
 
 * [Palindrome Partitioning.cpp](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PalindromePartitioning.cpp)
 * [Tree_traverse](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Tree_traverse.cpp)
@@ -70,7 +70,7 @@
 * [Validate Binary Search Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ValidateBinarySearchTree.cpp)
 
 
-#### Greedy (3)
+#### Greedy (4)
 
 * [Delete Digits](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteDigits.cpp)
 * [Majority Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MajorityNumber.cpp)
