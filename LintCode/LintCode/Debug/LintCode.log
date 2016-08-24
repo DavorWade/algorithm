@@ -1,0 +1,63 @@
+﻿  ValidParentheses.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\validparentheses.cpp(18): warning C4018: '<': signed/unsigned mismatch
+  ValidateBinarySearchTree.cpp
+  UniquePaths.cpp
+  TwoSum.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\twosum.cpp(23): warning C4018: '<': signed/unsigned mismatch
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\twosum.cpp(33): warning C4018: '<': signed/unsigned mismatch
+  Triangle.cpp
+  Tree_traverse.cpp
+  SingleNumber.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\singlenumber.cpp(18): warning C4018: '<': signed/unsigned mismatch
+  practice.cpp
+  Pow(x, n).cpp
+  PartitionArray.cpp
+  PalindromePartitioning.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\palindromepartitioning.cpp(29): warning C4018: '<': signed/unsigned mismatch
+  O(1)CheckPowerOf2.cpp
+  MergeKSortedLists.cpp
+  MedianOfTwoSortedArrays.cpp
+  Median.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\median.cpp(27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  MajorityNumber.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\majoritynumber.cpp(18): warning C4018: '<': signed/unsigned mismatch
+  LongestIncreasingContinuousSubsequence_DP.cpp
+  GenerateParentheses.cpp
+  FindMinimumInRotatedSortedArrayII.cpp
+  Fibonacci.cpp
+  Generating Code...
+  Compiling...
+  FastPower.cpp
+  DistinctSubsequences.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\distinctsubsequences.cpp(20): warning C4018: '<=': signed/unsigned mismatch
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\distinctsubsequences.cpp(23): warning C4018: '<=': signed/unsigned mismatch
+  DeleteDigits.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\deletedigits.cpp(28): warning C4018: '<': signed/unsigned mismatch
+  DecodeWays.cpp
+  CombinationSumII.cpp
+  CombinationSum.cpp
+  Combinations.cpp
+  CoinsInALineII.cpp
+  ClimbingStairs_m_steps.cpp
+  BinaryTreePostorderTraversal.cpp
+  BinaryTreePaths.cpp
+  BinaryTreeMaximumPathSum.cpp
+  BinaryTreeLevelOrderTraversalII.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\binarytreelevelordertraversalii.cpp(32): warning C4018: '<': signed/unsigned mismatch
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\binarytreelevelordertraversalii.cpp(42): warning C4018: '<': signed/unsigned mismatch
+  BinaryTreeLevelOrderTraversal.cpp
+  BalancedBinaryTree.cpp
+  BackpackII.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\backpackii.cpp(21): warning C4018: '<': signed/unsigned mismatch
+  Backpack.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\backpack.cpp(56): warning C4018: '<': signed/unsigned mismatch
+  4Sum.cpp
+  3SumClosest.cpp
+  3Sum.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\3sum.cpp(24): warning C4018: '<': signed/unsigned mismatch
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\3sum.cpp(28): warning C4018: '<': signed/unsigned mismatch
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\3sum.cpp(30): warning C4018: '<': signed/unsigned mismatch
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\3sum.cpp(44): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Users\Yang\Source\Repos\algorithm\LintCode\Debug\LintCode.exe : fatal error LNK1120: 1 unresolved externals
