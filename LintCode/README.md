@@ -44,7 +44,7 @@
 
 * [Combination Sum II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CombinationSumII.cpp)
 * [Combination Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CombinationSum.cpp)
-* [Validate Binary Search Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ValidateBinarySearchTree.cpp)
+* [Valid Parentheses](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ValidParentheses.cpp)
 * [Generate Parentheses](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/GenerateParentheses.cpp)
 
 
