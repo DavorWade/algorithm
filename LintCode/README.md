@@ -48,6 +48,10 @@
 * [Generate Parentheses](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/GenerateParentheses.cpp)
 
 
+#### Bit Operation (1)
+
+* [O(1)CheckPowerOf2](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/O(1)CheckPowerOf2.cpp)
+
 #### Divide and Conquer (6)
 
 * [Fast Power](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FastPower.cpp)
