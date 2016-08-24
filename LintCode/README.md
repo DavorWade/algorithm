@@ -50,12 +50,13 @@
 
 #### Bit Operation (1)
 
-* [O(1)CheckPowerOf2](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/O(1)CheckPowerOf2.cpp)
+* [O(1) Check Power Of 2](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/O(1)CheckPowerOf2.cpp)
 
 
 #### DFS (1)
 
-* [PalindromePartitioning.cpp](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PalindromePartitioning.cpp)
+* [Palindrome Partitioning.cpp](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PalindromePartitioning.cpp)
+* [Tree_traverse](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Tree_traverse.cpp)
 
 
 
@@ -74,5 +75,6 @@
 * [Delete Digits](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteDigits.cpp)
 * [Majority Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MajorityNumber.cpp)
 * [Single Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SingleNumber.cpp)
+* [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
