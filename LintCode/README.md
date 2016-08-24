@@ -52,6 +52,13 @@
 
 * [O(1)CheckPowerOf2](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/O(1)CheckPowerOf2.cpp)
 
+
+#### DFS (1)
+
+* [PalindromePartitioning.cpp](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PalindromePartitioning.cpp)
+
+
+
 #### Divide and Conquer (6)
 
 * [Fast Power](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FastPower.cpp)
