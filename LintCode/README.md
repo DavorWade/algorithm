@@ -16,7 +16,7 @@
 * [	Binary Tree Level Order Traversal II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeLevelOrderTraversalII.cpp)
 
 
-#### Dynamic Programming (11)
+#### Dynamic Programming (10)
 * [Back pack](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Backpack.cpp)
 * [Back pack II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackII.cpp)
 * [ClimbingStairs_m_steps](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ClimbingStairs_m_steps.cpp)
@@ -25,7 +25,6 @@
 * [Distinct Subsequences](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DistinctSubsequences.cpp)
 * [Fibonacci](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Fibonacci.cpp)
 * [Longest Increasing Continuous Subsequence_DP](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LongestIncreasingContinuousSubsequence_DP.cpp)
-* [Tree traverse](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Tree_traverse.cpp)
 * [Triangle](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Triangle.cpp)
 * [Unique Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniquePaths.cpp)
 
