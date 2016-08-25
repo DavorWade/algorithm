@@ -138,5 +138,8 @@
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RestoreIPAddresses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

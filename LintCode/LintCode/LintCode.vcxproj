@@ -45,6 +45,7 @@
     <ClCompile Include="PartitionArray.cpp" />
     <ClCompile Include="Pow(x, n).cpp" />
     <ClCompile Include="practice.cpp" />
+    <ClCompile Include="RestoreIPAddresses.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="Tree_traverse.cpp" />
     <ClCompile Include="Triangle.cpp" />
