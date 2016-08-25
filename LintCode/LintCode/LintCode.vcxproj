@@ -34,6 +34,7 @@
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
+    <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
     <ClCompile Include="MajorityNumber.cpp" />
     <ClCompile Include="Median.cpp" />

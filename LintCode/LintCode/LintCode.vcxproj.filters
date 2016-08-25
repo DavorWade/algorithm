@@ -135,5 +135,8 @@
     <ClCompile Include="GenerateParentheses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
