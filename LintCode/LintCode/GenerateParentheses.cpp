@@ -9,6 +9,7 @@ public:
     /**
     * @param n n pairs
     * @return All combinations of well-formed parentheses
+    * http://www.lintcode.com/en/problem/generate-parentheses/#
     */
     vector<string> generateParenthesis(int n) {
         // Write your code here

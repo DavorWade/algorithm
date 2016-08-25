@@ -9,6 +9,7 @@ public:
     /**
     * @param s A string
     * @return whether the string is a valid parentheses
+    * http://www.lintcode.com/en/problem/valid-parentheses/#
     */
     bool isValidParentheses(string& s) {
         // Write your code here
