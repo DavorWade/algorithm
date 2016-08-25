@@ -1,10 +1,9 @@
 ## LintCode
 
 
-#### Array (6)
+#### Array (5)
 
 * [Median](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Median.cpp)
-* [Median of two Sorted Arrays](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MedianOfTwoSortedArrays.cpp)
 * [Two Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TwoSum.cpp)
 * [3 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3Sum.cpp)
 * [3 Sum Closest](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3SumClosest.cpp)
@@ -17,7 +16,7 @@
 * [	Binary Tree Level Order Traversal II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeLevelOrderTraversalII.cpp)
 
 
-#### Dynamic Programming (11)
+#### Dynamic Programming (10)
 * [Back pack](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Backpack.cpp)
 * [Back pack II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackII.cpp)
 * [ClimbingStairs_m_steps](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ClimbingStairs_m_steps.cpp)
@@ -26,23 +25,37 @@
 * [Distinct Subsequences](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DistinctSubsequences.cpp)
 * [Fibonacci](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Fibonacci.cpp)
 * [Longest Increasing Continuous Subsequence_DP](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LongestIncreasingContinuousSubsequence_DP.cpp)
-* [Tree traverse](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Tree_traverse.cpp)
 * [Triangle](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Triangle.cpp)
 * [Unique Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniquePaths.cpp)
 
 
-#### Recursion (4)
+#### Recursion (5)
 
 * [Balanced Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BalancedBinaryTree.cpp)
 * [Binary Tree Maximum Path Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeMaximumPathSum.cpp)
 * [Binary Tree Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePaths.cpp)
 * [Binary Tree Postorder Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePostorderTraversal.cpp)
+* [Combinations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Combinations.cpp)
 
 
-#### Backtracking (2)
+#### Backtracking (4)
 
 * [Combination Sum II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CombinationSumII.cpp)
 * [Combination Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CombinationSum.cpp)
+* [Valid Parentheses](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ValidParentheses.cpp)
+* [Generate Parentheses](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/GenerateParentheses.cpp)
+
+
+#### Bit Operation (1)
+
+* [O(1) Check Power Of 2](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/O(1)CheckPowerOf2.cpp)
+
+
+#### DFS (2)
+
+* [Palindrome Partitioning.cpp](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PalindromePartitioning.cpp)
+* [Tree_traverse](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Tree_traverse.cpp)
+
 
 
 #### Divide and Conquer (6)
@@ -55,10 +68,11 @@
 * [Validate Binary Search Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ValidateBinarySearchTree.cpp)
 
 
-#### Greedy (3)
+#### Greedy (4)
 
 * [Delete Digits](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteDigits.cpp)
 * [Majority Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MajorityNumber.cpp)
 * [Single Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SingleNumber.cpp)
+* [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
