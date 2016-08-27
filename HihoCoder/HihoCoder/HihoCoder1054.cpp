@@ -10,7 +10,7 @@ int rs; // total legal solution
 int totalEdgeCount; //total edge count in every input data
 int totalPointCount; //total point count in result
 int record[10][10]; //store illegal edge
-int data[10][10]; //store edge from input data 
+int data_array[10][10]; //store edge from input data 
 int vis[10]; // is visited
 
 void init() {
@@ -30,7 +30,7 @@ void depSearch(int leftPoint, int currPointCount, int currEdgeCount) {
         if (!vis[i]) {
             if (record[leftPoint][i] && !vis[(leftPoint + i) / 2]) continue;
             vis[i] = 1;
-            if (data[leftPoint][i])
+            if (data_array[leftPoint][i])
                 depSearch(i, currPointCount + 1, currEdgeCount + 1);
             else
                 depSearch(i, currPointCount + 1, currEdgeCount);

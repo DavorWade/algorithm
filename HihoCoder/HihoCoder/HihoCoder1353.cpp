@@ -24,6 +24,7 @@ void dfs(vector<int> &data, int d, int n, int x, int &rs, int sum) {
     }
 }
 
+/*
 int main() {
     vector<int> data;
     int rs = INT_MAX;
@@ -52,3 +53,4 @@ int main() {
     system("pause");
     return 0;
 }
+*/
