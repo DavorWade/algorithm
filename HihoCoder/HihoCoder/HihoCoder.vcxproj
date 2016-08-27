@@ -88,6 +88,7 @@
     <ClCompile Include="MemoryAllocatingAlgorithm.cpp" />
     <ClCompile Include="NatureNumbers.cpp" />
     <ClCompile Include="PopularProducts.cpp" />
+    <ClCompile Include="TotalHighwayDistance.cpp" />
     <ClCompile Include="TowerDefenseGame.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
