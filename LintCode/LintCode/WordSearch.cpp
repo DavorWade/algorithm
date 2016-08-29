@@ -50,6 +50,8 @@ public:
                         isVisited[nx][ny] = true;
 
                         if (dfs(board, nx, ny, word, n + 1, isVisited)) return true;
+
+                        isVisited[nx][ny] = false;
                     }
                 }
             }
@@ -63,7 +65,7 @@ public:
 int main() {
     vector<vector<char> > board;
     board.push_back({ 'A', 'B', 'C', 'E' });
-    board.push_back({ 'S', 'F', 'C', 'S' });
+    board.push_back({ 'S', 'F', 'E', 'S' });
     board.push_back({ 'A', 'D', 'E', 'E' });
 
     Solution s;
