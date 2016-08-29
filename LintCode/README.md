@@ -38,13 +38,14 @@
 * [Combinations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Combinations.cpp)
 
 
-#### Backtracking (6)
+#### Backtracking (7)
 
 * [Combination Sum II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CombinationSumII.cpp)
 * [Combination Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CombinationSum.cpp)
 * [Valid Parentheses](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ValidParentheses.cpp)
 * [Generate Parentheses](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/GenerateParentheses.cpp)
 * [LetterCombinationsOfAPhoneNumber](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LetterCombinationsOfAPhoneNumber.cpp)
+* [Restore IP Addresses](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/RestoreIPAddresses.cpp)
 * [Word Search](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/WordSearch.cpp)
 
 
