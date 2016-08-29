@@ -81,6 +81,7 @@
     <ClCompile Include="BinaryWatch.cpp" />
     <ClCompile Include="BrowserCaching.cpp" />
     <ClCompile Include="CountingIslandsII.cpp" />
+    <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="GiveMyTextBack.cpp" />
     <ClCompile Include="HihoCoder1039.cpp" />
     <ClCompile Include="HihoCoder1054.cpp" />

@@ -54,6 +54,7 @@ public:
     }
 };
 
+/*
 int main() {
     Solution s;
     int n, m;
@@ -98,3 +99,4 @@ int main() {
     system("pause");
     return 0;
 }
+*/
