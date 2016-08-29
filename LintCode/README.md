@@ -45,6 +45,7 @@
 * [Valid Parentheses](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ValidParentheses.cpp)
 * [Generate Parentheses](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/GenerateParentheses.cpp)
 * [LetterCombinationsOfAPhoneNumber](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LetterCombinationsOfAPhoneNumber.cpp)
+* [Word Search](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/WordSearch.cpp)
 
 
 #### Bit Operation (1)
