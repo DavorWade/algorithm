@@ -141,5 +141,8 @@
     <ClCompile Include="RestoreIPAddresses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="WordSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
