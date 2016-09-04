@@ -19,6 +19,7 @@
 #### Dynamic Programming (10)
 * [Back pack](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Backpack.cpp)
 * [Back pack II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackII.cpp)
+* [Backpack VI](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackVI.cpp)
 * [ClimbingStairs_m_steps](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ClimbingStairs_m_steps.cpp)
 * [Coins In A Line II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CoinsInALineII.cpp)
 * [Decode Ways](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DecodeWays.cpp)
