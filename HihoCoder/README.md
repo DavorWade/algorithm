@@ -18,6 +18,20 @@
 * [Counting Islands II](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/CountingIslandsII.cpp)
 
 
+#### DFS (1)
+
+* [HihoCoder1353](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/HihoCoder1353.cpp)
+
+
+#### Dynamic Programming (1)
+
+* [Fibonacci](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/Fibonacci.cpp)
+
+
+#### Graph (1)
+
+* [Total Highway Distance](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/TotalHighwayDistance.cpp)
+
 #### Math (1)
 
 * [Nature Numbers](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/NatureNumbers.cpp)
@@ -26,11 +40,6 @@
 #### Queue (1)
 
 * [Memory Allocating Algorithm](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/MemoryAllocatingAlgorithm.cpp)
-
-
-#### DFS (1)
-
-* [HihoCoder1353](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/HihoCoder1353.cpp)
 
 
 #### Search (1)
