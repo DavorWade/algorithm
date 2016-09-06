@@ -25,6 +25,7 @@
     <ClCompile Include="BinaryTreePostorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
     <ClCompile Include="ClimbingStairs_m_steps.cpp" />
+    <ClCompile Include="CloneGraph.cpp" />
     <ClCompile Include="CoinsInALineII.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
