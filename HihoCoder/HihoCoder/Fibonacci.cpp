@@ -34,6 +34,7 @@ void dfs(vector<int> &dt, int n, vector<int> rs, int &totalCount) {
     }
 }
 
+/*
 int main() {
     vector<int> rs;
     vector<int> dt;
@@ -53,3 +54,4 @@ int main() {
     system("pause");
     return 0;
 }
+*/

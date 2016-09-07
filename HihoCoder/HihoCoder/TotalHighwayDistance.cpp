@@ -2,10 +2,6 @@
 #include <stdlib.h>
 #include <vector>
 #include <map>
-#include <string>
-#include <iostream>
-#include <sstream>
-#include <locale>
 
 using namespace std;
 
@@ -18,32 +14,19 @@ vector<map<pair<int, int>, int> > dt;
 
 class Solution {
 public:
-    vector<string> &split(const string &s, char delim, vector<string> &elems) {
-        stringstream ss(s);
-        string item;
-        while (getline(ss, item, delim)) {
-            elems.push_back(item);
-        }
-        return elems;
-    }
-
-    vector<string> split(const string &s, char delim) {
-        vector<string> elems;
-        split(s, delim, elems);
-        return elems;
-    }
-
-    void queryOp(int i, long long &tthd, int chd) {
+    void queryOp(int i, int first, long long &tthd, int chd) {
         if (i <= dt.size()) {
             for (map<pair<int, int>, int>::iterator it = dt[i - 1].begin(); it != dt[i - 1].end(); it++) {
                 int vv = it->first.second;
                 int kk = it->second;
 
-                //printf("%d %d\n", vv, kk);
-                //printf("%d\n", chd + kk);
-                tthd = tthd + chd + kk;
-                //printf("%d\n", tthd);
-                queryOp(vv, tthd, chd + kk);
+                if (vv != first) {
+                    //printf("vv, kk: %d %d\n", vv, kk);
+                    //printf("chd + kk: %d\n", chd + kk);
+                    tthd = tthd + chd + kk;
+                    //printf("tthd: %d\n", tthd);
+                    queryOp(vv, i, tthd, chd + kk);
+                }
             }
         }
     }
@@ -51,10 +34,13 @@ public:
     void editOp(int i, int j, int k) {
         pair<int, int> ij = make_pair(i, j);
         dt[i - 1][ij] = k;
+
+        pair<int, int> ji = make_pair(j, i);
+        dt[j - 1][ji] = k;
     }
 };
 
-/*
+/**/
 int main() {
     Solution s;
     int n, m;
@@ -67,30 +53,37 @@ int main() {
 
         pair<int, int> uv = make_pair(u, v);
         dt[u - 1][uv] = k;
+
+        pair<int, int> vu = make_pair(v, u);
+        dt[v - 1][vu] = k;
     }
 
-    getchar();
-    for (int j = 0; j < m; j++) {
-        string op;
-        getline(cin, op);
+    /*for (int t = 0; t < dt.size(); t++) {
+        map<pair<int, int>, int> tem = dt[t];
+        map<pair<int, int>, int>::iterator it = tem.begin();
 
-        if ("QUERY" == op) {
+        for (;it != tem.end(); it++) {
+            printf("%d %d: %d\n", it->first.first, it->first.second, it->second);
+        }
+        printf("\n");
+    }*/
+
+    for (int j = 0; j < m; j++) {
+        char op[15];
+        scanf("%s", op);
+
+        if ('Q' == op[0]) {
             long long thd = 0;
             for (int i = 1; i <= dt.size(); i++) {
                 long long onePointThd = 0;
-                s.queryOp(i, onePointThd, 0);
+                s.queryOp(i, i, onePointThd, 0);
                 thd += onePointThd;
             }
-            printf("%lld\n", thd);
+            printf("%lld\n", thd / 2);
         }
         else {
-            vector<string> rs;
-            char delim = ' ';
-            rs = s.split(op, delim);
-
-            int i = stoi(rs[1]);
-            int j = stoi(rs[2]);
-            int kk = stoi(rs[3]);
+            int i, j, kk;
+            scanf("%d %d %d", &i, &j, &kk);
 
             s.editOp(i, j, kk);
         }
@@ -99,4 +92,3 @@ int main() {
     system("pause");
     return 0;
 }
-*/
