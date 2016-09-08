@@ -40,7 +40,7 @@ public:
     }
 };
 
-/**/
+/*
 int main() {
     Solution s;
     int n, m;
@@ -58,15 +58,15 @@ int main() {
         dt[v - 1][vu] = k;
     }
 
-    /*for (int t = 0; t < dt.size(); t++) {
-        map<pair<int, int>, int> tem = dt[t];
-        map<pair<int, int>, int>::iterator it = tem.begin();
+    //for (int t = 0; t < dt.size(); t++) {
+    //    map<pair<int, int>, int> tem = dt[t];
+    //    map<pair<int, int>, int>::iterator it = tem.begin();
 
-        for (;it != tem.end(); it++) {
-            printf("%d %d: %d\n", it->first.first, it->first.second, it->second);
-        }
-        printf("\n");
-    }*/
+    //    for (;it != tem.end(); it++) {
+    //        printf("%d %d: %d\n", it->first.first, it->first.second, it->second);
+    //    }
+    //    printf("\n");
+    //}
 
     for (int j = 0; j < m; j++) {
         char op[15];
@@ -92,3 +92,4 @@ int main() {
     system("pause");
     return 0;
 }
+*/
