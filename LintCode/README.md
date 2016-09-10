@@ -50,6 +50,7 @@
 
 * [Binary Tree Level Order Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeLevelOrderTraversal.cpp)
 * [	Binary Tree Level Order Traversal II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeLevelOrderTraversalII.cpp)
+* [Clone Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CloneBinaryTree.cpp)
 
 
 #### DFS (2)
