@@ -14,20 +14,22 @@ int main() {
     f[2] = 1;
     m = 2;
 
-    while (f[m]<100000) {
+    while (f[m] < 100000) {
         f[m + 1] = f[m] + f[m - 1];
         m++;
     }
-    scanf("%lld", &n);
 
+    scanf("%lld", &n);
     for (int i = 0; i < n; i++) scanf("%lld", &a[i]);
-    for (int i = 0;i < n; i++) {
+
+    for (int i = 0; i < n; i++) {
         int it = lower_bound(f + 1, f + m + 1, a[i]) - f;
-        if (it >= 3 && it <= m&&f[it] == a[i]) {
+        if (it >= 3 && it <= m && f[it] == a[i]) {
             dp[it] += dp[it - 1];
             ans += dp[it - 1];
-            ans %= 1000000007;
+
             dp[it] %= 1000000007;
+            ans %= 1000000007;
         }
         else if (1 == a[i]) {
             dp[2] += dp[1];
