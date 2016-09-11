@@ -165,5 +165,8 @@
     <ClCompile Include="ConvertSortedArraytoBinarySearchTreeWithMinimalHeight.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ConvertSortedListtoBalancedBST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
