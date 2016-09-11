@@ -47,11 +47,12 @@
 * [O(1) Check Power Of 2](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/O(1)CheckPowerOf2.cpp)
 
 
-#### Binary Tree (3)
+#### Binary Tree (4)
 
 * [Binary Tree Level Order Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeLevelOrderTraversal.cpp)
 * [	Binary Tree Level Order Traversal II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeLevelOrderTraversalII.cpp)
 * [Clone Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CloneBinaryTree.cpp)
+* [Convert Sorted Array to Binary Search Tree With Minimal Height](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ConvertSortedArraytoBinarySearchTreeWithMinimalHeight.cpp)
 
 
 #### DFS (2)
