@@ -35,10 +35,11 @@
 * [Word Search](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/WordSearch.cpp)
 
 
-#### BFS (2)
+#### BFS (3)
 
 * [Binary Tree Zigzag Level Order Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeZigzagLevelOrderTraversal.cpp)
 * [Clone Graph](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CloneGraph.cpp)
+* [Graph Valid Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/GraphValidTree.cpp)
 
 
 #### Bit Operation (1)
@@ -84,4 +85,9 @@
 * [Binary Tree Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePaths.cpp)
 * [Binary Tree Postorder Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePostorderTraversal.cpp)
 * [Combinations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Combinations.cpp)
+
+
+#### String (1)
+
+* [Compare Strings](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CompareStrings.cpp)
 
