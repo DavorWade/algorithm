@@ -32,6 +32,7 @@
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="CompareStrings.cpp" />
+    <ClCompile Include="ConvertSortedArraytoBinarySearchTreeWithMinimalHeight.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DeleteDigits.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />

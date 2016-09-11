@@ -162,5 +162,8 @@
     <ClCompile Include="CompareStrings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ConvertSortedArraytoBinarySearchTreeWithMinimalHeight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
