@@ -11,15 +11,6 @@ int A[100][100] = {};
 int C[100][100] = {};
 int B[100][100] = {};
 
-void printA() {
-    for (int i = 0; i != n; ++i) {
-        for (int j = 0; j != n; ++j) {
-            cout << A[i][j] << ' ';
-        }
-        cout << endl;
-    }
-}
-
 bool isEqual(int bi, int bj, int sz) {
     for (int i = bi; i < bi + sz; ++i) {
         for (int j = bj; j < bj + sz; ++j) {
@@ -66,6 +57,7 @@ bool isEncrypted(int bi, int bj, int sz) {
     return false;
 }
 
+/*
 int main() {
     ios::sync_with_stdio(false);
     int case_num;
@@ -98,3 +90,4 @@ int main() {
     system("pause");
     return 0;
 }
+*/
