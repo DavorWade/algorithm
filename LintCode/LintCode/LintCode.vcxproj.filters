@@ -168,5 +168,8 @@
     <ClCompile Include="ConvertSortedListtoBalancedBST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Count1inBinary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
