@@ -52,6 +52,7 @@
     <ClCompile Include="O(1)CheckPowerOf2.cpp" />
     <ClCompile Include="PalindromePartitioning.cpp" />
     <ClCompile Include="PartitionArray.cpp" />
+    <ClCompile Include="PerfectSquares.cpp" />
     <ClCompile Include="Pow(x, n).cpp" />
     <ClCompile Include="practice.cpp" />
     <ClCompile Include="RestoreIPAddresses.cpp" />

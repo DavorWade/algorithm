@@ -41,7 +41,7 @@ public:
 };
 
 // another solution
-class Solution {
+class Solution1 {
 public:
     /**
     * @param A: A string includes Upper Case letters

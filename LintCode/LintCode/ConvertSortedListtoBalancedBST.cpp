@@ -56,7 +56,7 @@ public:
 };
 
 //another solution
-class Solution {
+class Solution1 {
 public:
     /**
     * @param head: The first node of linked list.

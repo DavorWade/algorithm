@@ -1,3 +1,5 @@
-﻿  CloneBinaryTree.cpp
+﻿  PerfectSquares.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\perfectsquares.cpp(23): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\perfectsquares.cpp(26): warning C4018: '<': signed/unsigned mismatch
   LintCode.vcxproj -> D:\Users\Yang\Source\Repos\algorithm\LintCode\Debug\LintCode.exe
   LintCode.vcxproj -> D:\Users\Yang\Source\Repos\algorithm\LintCode\Debug\LintCode.pdb (Full PDB)
