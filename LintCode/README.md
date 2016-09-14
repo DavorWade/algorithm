@@ -20,6 +20,7 @@
 * [Distinct Subsequences](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DistinctSubsequences.cpp)
 * [Fibonacci](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Fibonacci.cpp)
 * [Longest Increasing Continuous Subsequence_DP](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LongestIncreasingContinuousSubsequence_DP.cpp)
+* [Perfect Squares](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PerfectSquares.cpp)
 * [Triangle](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Triangle.cpp)
 * [Unique Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniquePaths.cpp)
 
@@ -39,7 +40,6 @@
 
 * [Binary Tree Zigzag Level Order Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeZigzagLevelOrderTraversal.cpp)
 * [Clone Graph](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CloneGraph.cpp)
-* [Graph Valid Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/GraphValidTree.cpp)
 
 
 #### Bit Operation (2)
@@ -54,6 +54,11 @@
 * [	Binary Tree Level Order Traversal II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeLevelOrderTraversalII.cpp)
 * [Clone Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CloneBinaryTree.cpp)
 * [Convert Sorted Array to Binary Search Tree With Minimal Height](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ConvertSortedArraytoBinarySearchTreeWithMinimalHeight.cpp)
+
+
+#### Disjoint Set (1)
+
+* [Graph Valid Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/GraphValidTree.cpp)
 
 
 #### DFS (2)
