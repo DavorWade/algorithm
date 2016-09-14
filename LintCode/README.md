@@ -36,7 +36,7 @@
 * [Word Search](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/WordSearch.cpp)
 
 
-#### BFS (3)
+#### BFS (2)
 
 * [Binary Tree Zigzag Level Order Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeZigzagLevelOrderTraversal.cpp)
 * [Clone Graph](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CloneGraph.cpp)
