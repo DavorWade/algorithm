@@ -10,7 +10,7 @@
 * [4 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/4Sum.cpp)
 
 
-#### Dynamic Programming (11)
+#### Dynamic Programming (12)
 * [Back pack](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Backpack.cpp)
 * [Back pack II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackII.cpp)
 * [Backpack VI](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackVI.cpp)
