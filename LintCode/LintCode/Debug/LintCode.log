@@ -1,5 +1,11 @@
-﻿  PerfectSquares.cpp
-d:\users\yang\source\repos\algorithm\lintcode\lintcode\perfectsquares.cpp(23): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-d:\users\yang\source\repos\algorithm\lintcode\lintcode\perfectsquares.cpp(26): warning C4018: '<': signed/unsigned mismatch
+﻿  SurroundedRegions.cpp
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\surroundedregions.cpp(19): warning C4018: '<': signed/unsigned mismatch
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\surroundedregions.cpp(32): warning C4018: '<': signed/unsigned mismatch
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\surroundedregions.cpp(48): warning C4018: '<': signed/unsigned mismatch
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\surroundedregions.cpp(62): warning C4018: '<': signed/unsigned mismatch
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\surroundedregions.cpp(76): warning C4018: '<': signed/unsigned mismatch
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\surroundedregions.cpp(77): warning C4018: '<': signed/unsigned mismatch
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\surroundedregions.cpp(80): warning C4553: '==': operator has no effect; did you intend '='?
+d:\users\yang\source\repos\algorithm\lintcode\lintcode\surroundedregions.cpp(84): warning C4553: '==': operator has no effect; did you intend '='?
   LintCode.vcxproj -> D:\Users\Yang\Source\Repos\algorithm\LintCode\Debug\LintCode.exe
   LintCode.vcxproj -> D:\Users\Yang\Source\Repos\algorithm\LintCode\Debug\LintCode.pdb (Full PDB)
