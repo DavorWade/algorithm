@@ -180,5 +180,8 @@
     <ClCompile Include="SurroundedRegions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TopologicalSorting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

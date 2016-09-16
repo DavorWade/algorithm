@@ -59,6 +59,7 @@
     <ClCompile Include="RouteBetweenTwoNodesinGraph.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
+    <ClCompile Include="TopologicalSorting.cpp" />
     <ClCompile Include="Tree_traverse.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoSum.cpp" />
