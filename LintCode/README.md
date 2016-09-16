@@ -42,6 +42,7 @@
 * [Clone Graph](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CloneGraph.cpp)
 * [Route Between Two Nodes in Graph](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/RouteBetweenTwoNodesinGraph.cpp)
 * [Surrounded Regions](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SurroundedRegions.cpp)
+* [Topological Sorting](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TopologicalSorting.cpp)
 
 
 #### Bit Operation (2)
