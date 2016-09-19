@@ -85,17 +85,17 @@
 * [Validate Binary Search Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ValidateBinarySearchTree.cpp)
 
 
+#### Graph (1)
+
+* [Word Ladder](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/WordLadder.cpp)
+
+
 #### Greedy (4)
 
 * [Delete Digits](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteDigits.cpp)
 * [Majority Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MajorityNumber.cpp)
 * [Single Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SingleNumber.cpp)
 * [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
-
-
-#### Graph (1)
-
-* [Word Ladder](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/WordLadder.cpp)
 
 
 #### Recursion (5)
