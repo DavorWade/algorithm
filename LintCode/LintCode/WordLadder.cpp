@@ -33,10 +33,13 @@ public:
             int size = Q.size();
             for (int i = 0; i < size; i++) {
                 string word = Q.front(); Q.pop();
+
                 for (int i = 0; i < n; i++) {
                     char oldChar = word[i];
+
                     for (char c = 'a'; c <= 'z'; c++) {
                         if (c == oldChar) continue;
+
                         word[i] = c;
                         if (word == end) {
                             return length;

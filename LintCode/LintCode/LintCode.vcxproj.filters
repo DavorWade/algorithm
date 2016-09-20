@@ -186,5 +186,8 @@
     <ClCompile Include="WordLadder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="N-Queens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
