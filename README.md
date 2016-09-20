@@ -1,6 +1,6 @@
 # Algorithm
 
-Algorithm practice for improvement of program-thinking and finding jobs. This repository haven't been finished and I'm working on it.
+Algorithm practice for improvement of program-thinking and finding jobs. This repository hasn't been finished and I'm working on it.
 
 ### Introduction
 
