@@ -69,7 +69,7 @@
 * [Graph Valid Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/GraphValidTree.cpp)
 
 
-#### DFS (2)
+#### DFS (4)
 
 * [N-Queens](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/N-Queens.cpp)
 * [N-Queens II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/N-QueensII.cpp)
