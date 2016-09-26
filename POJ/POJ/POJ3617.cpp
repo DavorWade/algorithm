@@ -1,9 +1,12 @@
+//2016-9-26
+
 #include <stdlib.h>
 #include <stdio.h>
 
+#define N 2000
+
 using namespace std;
 
-#define N 2000
 char cows[N + 1];
 
 void solve(char *cows, int n) {
@@ -40,9 +43,12 @@ void solve(char *cows, int n) {
 int main() {
     int n;
     scanf("%d", &n);
+    getchar(); //get the '\n'
 
     for (int i = 0; i < n; i++) {
+        //cows[i] = getchar();
         scanf("%c", &cows[i]);
+        getchar();
     }
 
     solve(cows, n);
