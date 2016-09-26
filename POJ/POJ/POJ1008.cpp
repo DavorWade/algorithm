@@ -15,6 +15,7 @@ int summons(string hm) {
 	return -1;
 }
 
+/*
 int main() {
 	long n, i, j, k;
 	cin >> n;
@@ -37,3 +38,4 @@ int main() {
 	system("pause");
 	return 0;
 }
+*/

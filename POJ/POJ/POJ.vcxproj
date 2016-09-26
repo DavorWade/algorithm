@@ -85,6 +85,7 @@
     <ClCompile Include="poj1007.cpp" />
     <ClCompile Include="POJ1008.cpp" />
     <ClCompile Include="POJ2386.cpp" />
+    <ClCompile Include="POJ3617.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

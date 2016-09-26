@@ -7,20 +7,21 @@
 using namespace std;
 
 int n, m;
-char data[100][100];
+char dt[100][100];
 
 void findPonds(int x, int y) {
-	data[x][y] = '.';
+    dt[x][y] = '.';
 
 	for (int i = -1; i < 2; i++) {
 		for (int j = -1; j < 2; j++) {
 			int xx = x + i;
 			int yy = y + j;
-			if (0 <= xx && xx <= n && 0 <= yy && yy <= m && data[xx][yy] == 'W') findPonds(xx, yy);
+			if (0 <= xx && xx <= n && 0 <= yy && yy <= m && dt[xx][yy] == 'W') findPonds(xx, yy);
 		}
 	}
 }
 
+/*
 int main(int argc, char *argv[]) {
 	int count = 0;
 	char tem;
@@ -30,14 +31,14 @@ int main(int argc, char *argv[]) {
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
 			scanf("%c", &tem);
-			data[i][j] = tem;
+            dt[i][j] = tem;
 		}
 		getchar();
 	}
 
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
-			if (data[i][j] == 'W') {
+			if (dt[i][j] == 'W') {
 				findPonds(i, j);
 				count++;
 			}
@@ -49,3 +50,4 @@ int main(int argc, char *argv[]) {
 	system("pause");
 	return 0;
 }
+*/
