@@ -42,3 +42,32 @@ public:
         return val;
     }
 };
+
+//DP
+class Solution1 {
+public:
+    /**
+    * @param root: The root of binary tree.
+    * @return: The maximum amount of money you can rob tonight
+    * @date: 2016-9-28
+    */
+    int houseRobber3(TreeNode* root) {
+        // write your code here
+        vector<int> ans = dp(root);
+        return max(ans[0], ans[1]);
+    }
+
+    vector<int> dp(TreeNode* root) {
+        if (root == nullptr) {
+            vector<int> now{0, 0};
+            return now;
+        }
+
+        vector<int> left = dp(root->left);
+        vector<int> right = dp(root->right);
+        vector<int> now(2, 0);
+        now[0] = max(left[0], left[1]) + max(right[0], right[1]);
+        now[1] = left[0] + right[0] + root->val;
+        return now;
+    }
+};
