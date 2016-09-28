@@ -43,6 +43,7 @@
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GraphValidTree.cpp" />
+    <ClCompile Include="HouseRobberIII.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
     <ClCompile Include="MajorityNumber.cpp" />

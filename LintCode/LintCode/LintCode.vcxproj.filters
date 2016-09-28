@@ -192,5 +192,8 @@
     <ClCompile Include="N-QueensII.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HouseRobberIII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
