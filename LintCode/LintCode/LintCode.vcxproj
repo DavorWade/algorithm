@@ -38,6 +38,7 @@
     <ClCompile Include="CountandSay.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DeleteDigits.cpp" />
+    <ClCompile Include="DeleteNodeintheMiddleofSinglyLinkedList.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="FastPower.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
