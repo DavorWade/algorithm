@@ -69,8 +69,9 @@
 * [Graph Valid Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/GraphValidTree.cpp)
 
 
-#### DFS (4)
+#### DFS (5)
 
+* [House Robber III](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/HouseRobberIII.cpp) (DP, DFS)
 * [N-Queens](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/N-Queens.cpp)
 * [N-Queens II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/N-QueensII.cpp)
 * [Palindrome Partitioning.cpp](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PalindromePartitioning.cpp)
