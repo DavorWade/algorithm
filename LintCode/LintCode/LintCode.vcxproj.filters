@@ -198,5 +198,11 @@
     <ClCompile Include="Permutations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PermutationsII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CountandSay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
