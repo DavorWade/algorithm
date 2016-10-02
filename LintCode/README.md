@@ -101,13 +101,14 @@
 * [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
-#### Recursion (5)
+#### Recursion (6)
 
 * [Balanced Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BalancedBinaryTree.cpp)
 * [Binary Tree Maximum Path Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeMaximumPathSum.cpp)
 * [Binary Tree Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePaths.cpp)
 * [Binary Tree Postorder Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePostorderTraversal.cpp)
 * [Combinations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Combinations.cpp)
+* [Permutations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Permutations.cpp)
 
 
 #### String (1)
