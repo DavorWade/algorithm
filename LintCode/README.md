@@ -64,6 +64,12 @@
 * [Clone Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CloneBinaryTree.cpp)
 
 
+#### Combinatorial number (2)
+
+* [Subsets](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subsets.cpp) (Combinatorial number, Recursion)
+* [Subsets II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SubsetsII.cpp)
+
+
 #### Disjoint Set (1)
 
 * [Graph Valid Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/GraphValidTree.cpp)
