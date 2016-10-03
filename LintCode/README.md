@@ -101,14 +101,20 @@
 * [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
-#### Recursion (6)
+#### Linked List (1)
+
+* [Delete Node in the Middle of Singly Linked List](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteNodeintheMiddleofSinglyLinkedList.cpp)
+
+#### Recursion (8)
 
 * [Balanced Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BalancedBinaryTree.cpp)
 * [Binary Tree Maximum Path Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeMaximumPathSum.cpp)
 * [Binary Tree Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePaths.cpp)
 * [Binary Tree Postorder Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePostorderTraversal.cpp)
 * [Combinations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Combinations.cpp)
+* [Count and Say](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CountandSay.cpp)
 * [Permutations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Permutations.cpp)
+* [Permutations II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PermutationsII.cpp)
 
 
 #### String (1)
