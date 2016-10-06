@@ -219,5 +219,8 @@
     <ClCompile Include="kSumII.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UniqueBinarySearchTreesII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

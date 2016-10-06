@@ -74,6 +74,7 @@
     <ClCompile Include="Tree_traverse.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoSum.cpp" />
+    <ClCompile Include="UniqueBinarySearchTreesII.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="ValidateBinarySearchTree.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
