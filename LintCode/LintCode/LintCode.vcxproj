@@ -51,6 +51,7 @@
     <ClCompile Include="MajorityNumber.cpp" />
     <ClCompile Include="Median.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
+    <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />
     <ClCompile Include="N-Queens.cpp" />
     <ClCompile Include="N-QueensII.cpp" />
