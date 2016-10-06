@@ -216,5 +216,8 @@
     <ClCompile Include="MergeIntervals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="kSumII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

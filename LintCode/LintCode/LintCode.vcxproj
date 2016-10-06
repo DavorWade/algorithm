@@ -46,6 +46,7 @@
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GraphValidTree.cpp" />
     <ClCompile Include="HouseRobberIII.cpp" />
+    <ClCompile Include="kSumII.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
     <ClCompile Include="MajorityNumber.cpp" />
