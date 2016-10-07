@@ -222,5 +222,8 @@
     <ClCompile Include="UniqueBinarySearchTreesII.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UniqueBinarySearchTrees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
