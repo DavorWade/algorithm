@@ -43,6 +43,7 @@
     <ClCompile Include="FastPower.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
+    <ClCompile Include="FlattenList.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GraphValidTree.cpp" />
     <ClCompile Include="HouseRobberIII.cpp" />
