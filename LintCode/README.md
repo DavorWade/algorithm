@@ -11,7 +11,7 @@
 * [4 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/4Sum.cpp)
 
 
-#### Dynamic Programming (12)
+#### Dynamic Programming (14)
 * [Back pack](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Backpack.cpp)
 * [Back pack II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackII.cpp)
 * [Backpack VI](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackVI.cpp)
@@ -23,6 +23,8 @@
 * [Longest Increasing Continuous Subsequence_DP](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LongestIncreasingContinuousSubsequence_DP.cpp)
 * [Perfect Squares](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PerfectSquares.cpp)
 * [Triangle](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Triangle.cpp)
+* [Unique Binary Search Trees II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniqueBinarySearchTreesII.cpp)  (DP, Recursion)
+* [UniqueBinarySearchTrees](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniqueBinarySearchTrees.cpp) (DP, Math, Recursion)
 * [Unique Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniquePaths.cpp)
 
 
@@ -65,10 +67,11 @@
 * [Clone Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CloneBinaryTree.cpp)
 
 
-#### Combinatorial number (2)
+#### Combinatorial number (3)
 
 * [Subsets](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subsets.cpp) (Combinatorial number, Recursion)
 * [Subsets II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SubsetsII.cpp)
+* [k Sum II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/kSumII.cpp)
 
 
 #### Disjoint Set (1)
@@ -112,7 +115,7 @@
 
 * [Delete Node in the Middle of Singly Linked List](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteNodeintheMiddleofSinglyLinkedList.cpp)
 
-#### Recursion (8)
+#### Recursion (9)
 
 * [Balanced Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BalancedBinaryTree.cpp)
 * [Binary Tree Maximum Path Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeMaximumPathSum.cpp)
@@ -120,6 +123,7 @@
 * [Binary Tree Postorder Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreePostorderTraversal.cpp)
 * [Combinations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Combinations.cpp)
 * [Count and Say](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CountandSay.cpp)
+* [Flatten List](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FlattenList.cpp)
 * [Permutations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Permutations.cpp)
 * [Permutations II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PermutationsII.cpp)
 
