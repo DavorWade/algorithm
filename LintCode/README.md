@@ -24,7 +24,7 @@
 * [Perfect Squares](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PerfectSquares.cpp)
 * [Triangle](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Triangle.cpp)
 * [Unique Binary Search Trees II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniqueBinarySearchTreesII.cpp)  (DP, Recursion)
-* [UniqueBinarySearchTrees](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniqueBinarySearchTrees.cpp) (DP, Math, Recursion)
+* [Unique Binary Search Trees](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniqueBinarySearchTrees.cpp) (DP, Math, Recursion)
 * [Unique Paths](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniquePaths.cpp)
 
 
