@@ -127,7 +127,7 @@
 * [Flatten List](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FlattenList.cpp)
 * [Permutations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Permutations.cpp)
 * [Permutations II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PermutationsII.cpp)
-* [Subtree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subtree.cpp)
+* [Subtree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subtree.cpp) (Recursion, Binary Tree)
 
 
 #### String (1)
