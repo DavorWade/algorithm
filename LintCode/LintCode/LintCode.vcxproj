@@ -71,6 +71,7 @@
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="Subsets.cpp" />
     <ClCompile Include="SubsetsII.cpp" />
+    <ClCompile Include="Subtree.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="TopologicalSorting.cpp" />
     <ClCompile Include="Tree_traverse.cpp" />
