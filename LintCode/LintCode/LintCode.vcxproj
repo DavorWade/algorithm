@@ -55,6 +55,7 @@
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />
+    <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="N-Queens.cpp" />
     <ClCompile Include="N-QueensII.cpp" />
     <ClCompile Include="O(1)CheckPowerOf2.cpp" />
