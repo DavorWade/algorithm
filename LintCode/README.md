@@ -111,7 +111,7 @@
 * [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
-#### Linked List (2)
+#### Linked List (3)
 
 * [Delete Node in the Middle of Singly Linked List](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteNodeintheMiddleofSinglyLinkedList.cpp)
 * [Merge Two Sorted Lists](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MergeTwoSortedLists.cpp)
