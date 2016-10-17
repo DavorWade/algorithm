@@ -50,6 +50,7 @@
     <ClCompile Include="kSumII.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
+    <ClCompile Include="LongestWords.cpp" />
     <ClCompile Include="MajorityNumber.cpp" />
     <ClCompile Include="MatrixZigzagTraversal.cpp" />
     <ClCompile Include="Median.cpp" />
