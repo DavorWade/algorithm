@@ -80,6 +80,7 @@
   <ItemGroup>
     <ClCompile Include="BinaryWatch.cpp" />
     <ClCompile Include="BrowserCaching.cpp" />
+    <ClCompile Include="Composition.cpp" />
     <ClCompile Include="CountingIslandsII.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="GiveMyTextBack.cpp" />
