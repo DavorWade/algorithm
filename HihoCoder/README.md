@@ -13,9 +13,8 @@
 * [Binary Watch](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/BinaryWatch.cpp)
 
 
-#### Disjoint Set (2)
+#### Disjoint Set (1)
 
-* [Composition](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/Composition.cpp)
 * [Counting Islands II](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/CountingIslandsII.cpp)
 
 
@@ -24,8 +23,9 @@
 * [HihoCoder1353](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/HihoCoder1353.cpp)
 
 
-#### Dynamic Programming (1)
+#### Dynamic Programming (2)
 
+* [Composition](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/Composition.cpp)
 * [Fibonacci](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/Fibonacci.cpp)
 
 
@@ -33,9 +33,15 @@
 
 * [Total Highway Distance](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/TotalHighwayDistance.cpp)
 
+
 #### Math (1)
 
 * [Nature Numbers](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/NatureNumbers.cpp)
+
+
+#### Matrix (1)
+
+* [Image Encryption](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/ImageEncryption.cpp)
 
 
 #### Queue (1)
