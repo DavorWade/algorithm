@@ -111,11 +111,12 @@
 * [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
-#### Linked List (1)
+#### Linked List (2)
 
 * [Delete Node in the Middle of Singly Linked List](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteNodeintheMiddleofSinglyLinkedList.cpp)
+* [Merge Two Sorted Lists](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MergeTwoSortedLists.cpp)
 
-#### Recursion (9)
+#### Recursion (10)
 
 * [Balanced Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BalancedBinaryTree.cpp)
 * [Binary Tree Maximum Path Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeMaximumPathSum.cpp)
@@ -126,6 +127,7 @@
 * [Flatten List](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FlattenList.cpp)
 * [Permutations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Permutations.cpp)
 * [Permutations II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PermutationsII.cpp)
+* [Subtree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subtree.cpp) (Recursion, Binary Tree)
 
 
 #### String (1)
