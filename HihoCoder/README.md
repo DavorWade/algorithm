@@ -13,8 +13,9 @@
 * [Binary Watch](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/BinaryWatch.cpp)
 
 
-#### Disjoint Set (1)
+#### Disjoint Set (2)
 
+* [Composition](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/Composition.cpp)
 * [Counting Islands II](https://github.com/DavorWade/algorithm/blob/master/HihoCoder/HihoCoder/CountingIslandsII.cpp)
 
 
