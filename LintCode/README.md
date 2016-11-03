@@ -48,9 +48,10 @@
 * [Topological Sorting](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TopologicalSorting.cpp)
 
 
-#### Bit Operation (2)
+#### Bit Operation (3)
 
 * [Count 1 in Binary](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Count1inBinary.cpp)
+* [Find the Missing Number](https://www.lintcode.com/en/problem/find-the-missing-number/)
 * [O(1) Check Power Of 2](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/O(1)CheckPowerOf2.cpp)
 
 
@@ -123,7 +124,7 @@
 * [Matrix Zigzag Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MatrixZigzagTraversal.cpp)
 
 
-#### Recursion (10)
+#### Recursion (11)
 
 * [Balanced Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BalancedBinaryTree.cpp)
 * [Binary Tree Maximum Path Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeMaximumPathSum.cpp)
@@ -132,13 +133,15 @@
 * [Combinations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Combinations.cpp)
 * [Count and Say](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CountandSay.cpp)
 * [Flatten List](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FlattenList.cpp)
+* [Gray Code](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/GrayCode.cpp)
 * [Permutations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Permutations.cpp)
 * [Permutations II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PermutationsII.cpp)
 * [Subtree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subtree.cpp) (Recursion, Binary Tree)
 
 
-#### String (2)
+#### String (3)
 
 * [Compare Strings](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CompareStrings.cpp)
+* [Largest Number](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LargestNumber.cpp)
 * [Longest Words](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LongestWords.cpp)
 
