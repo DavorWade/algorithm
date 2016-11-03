@@ -111,10 +111,17 @@
 * [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
-#### Linked List (2)
+#### Linked List (3)
 
 * [Delete Node in the Middle of Singly Linked List](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteNodeintheMiddleofSinglyLinkedList.cpp)
 * [Merge Two Sorted Lists](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MergeTwoSortedLists.cpp)
+* [Nth to Last Node in List](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/NthtoLastNodeinList.cpp)
+
+
+#### Math (1)
+
+* [Matrix Zigzag Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MatrixZigzagTraversal.cpp)
+
 
 #### Recursion (10)
 
@@ -130,7 +137,8 @@
 * [Subtree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subtree.cpp) (Recursion, Binary Tree)
 
 
-#### String (1)
+#### String (2)
 
 * [Compare Strings](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CompareStrings.cpp)
+* [Longest Words](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LongestWords.cpp)
 
