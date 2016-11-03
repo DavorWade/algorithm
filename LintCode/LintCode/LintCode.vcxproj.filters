@@ -243,5 +243,11 @@
     <ClCompile Include="NthtoLastNodeinList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LargestNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

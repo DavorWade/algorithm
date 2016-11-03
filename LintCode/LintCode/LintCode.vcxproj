@@ -48,6 +48,7 @@
     <ClCompile Include="GraphValidTree.cpp" />
     <ClCompile Include="HouseRobberIII.cpp" />
     <ClCompile Include="kSumII.cpp" />
+    <ClCompile Include="LargestNumber.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
     <ClCompile Include="LongestWords.cpp" />
@@ -76,6 +77,7 @@
     <ClCompile Include="SubsetsII.cpp" />
     <ClCompile Include="Subtree.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="TopologicalSorting.cpp" />
     <ClCompile Include="Tree_traverse.cpp" />
     <ClCompile Include="Triangle.cpp" />
