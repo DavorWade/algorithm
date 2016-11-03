@@ -47,6 +47,7 @@
     <ClCompile Include="FlattenList.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GraphValidTree.cpp" />
+    <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="HouseRobberIII.cpp" />
     <ClCompile Include="kSumII.cpp" />
     <ClCompile Include="LargestNumber.cpp" />
