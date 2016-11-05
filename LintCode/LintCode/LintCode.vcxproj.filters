@@ -255,5 +255,11 @@
     <ClCompile Include="GrayCode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GasStation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNumberIII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

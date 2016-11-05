@@ -5,12 +5,13 @@
 
 using namespace std;
 
+// O(n):https://fisherlei.blogspot.com/2015/10/leetcode-single-number-iii-solution.html
+
 class Solution {
 public:
     /**
     * @param A : An integer array
     * @return : Two integers
-    * @date: 2016-11-5
     * O(nlgn)
     */
     vector<int> singleNumberIII(vector<int> &A) {

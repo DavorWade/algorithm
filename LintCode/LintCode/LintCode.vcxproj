@@ -45,6 +45,7 @@
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
     <ClCompile Include="FindtheMissingNumber.cpp" />
     <ClCompile Include="FlattenList.cpp" />
+    <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GraphValidTree.cpp" />
     <ClCompile Include="GrayCode.cpp" />
@@ -75,6 +76,7 @@
     <ClCompile Include="RestoreIPAddresses.cpp" />
     <ClCompile Include="RouteBetweenTwoNodesinGraph.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
+    <ClCompile Include="SingleNumberIII.cpp" />
     <ClCompile Include="Subsets.cpp" />
     <ClCompile Include="SubsetsII.cpp" />
     <ClCompile Include="Subtree.cpp" />
