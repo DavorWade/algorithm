@@ -48,11 +48,12 @@
 * [Topological Sorting](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TopologicalSorting.cpp)
 
 
-#### Bit Operation (3)
+#### Bit Operation (4)
 
 * [Count 1 in Binary](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Count1inBinary.cpp)
-* [Find the Missing Number](https://www.lintcode.com/en/problem/find-the-missing-number/)
+* [Find the Missing Number](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/FindtheMissingNumber.cpp)
 * [O(1) Check Power Of 2](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/O(1)CheckPowerOf2.cpp)
+* [Single Number III](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SingleNumberIII.cpp)
 
 
 #### Binary Search (2)
@@ -104,11 +105,12 @@
 * [Word Ladder](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/WordLadder.cpp)
 
 
-#### Greedy (4)
+#### Greedy (5)
 
 * [Delete Digits](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteDigits.cpp)
+* [Gas Station](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/GasStation.cpp)
 * [Majority Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MajorityNumber.cpp)
-* [Single Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SingleNumber.cpp)
+* [Single Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SingleNumber.cpp) (Greedy, Bit Operation)
 * [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
