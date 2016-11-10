@@ -54,7 +54,7 @@
 * [Count 1 in Binary](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Count1inBinary.cpp)
 * [Find the Missing Number](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/FindtheMissingNumber.cpp)
 * [O(1) Check Power Of 2](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/O(1)CheckPowerOf2.cpp)
-* [Single Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SingleNumber.cpp) (Greedy, Bit Operation)
+* [Single Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SingleNumber.cpp)
 * [Single Number II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SingleNumberII.cpp)
 * [Single Number III](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SingleNumberIII.cpp)
 
