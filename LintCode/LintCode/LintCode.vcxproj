@@ -51,6 +51,7 @@
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="HouseRobberIII.cpp" />
     <ClCompile Include="kSumII.cpp" />
+    <ClCompile Include="KthLargestElement.cpp" />
     <ClCompile Include="LargestNumber.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
@@ -76,6 +77,7 @@
     <ClCompile Include="RestoreIPAddresses.cpp" />
     <ClCompile Include="RouteBetweenTwoNodesinGraph.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
+    <ClCompile Include="SingleNumberII.cpp" />
     <ClCompile Include="SingleNumberIII.cpp" />
     <ClCompile Include="Subsets.cpp" />
     <ClCompile Include="SubsetsII.cpp" />
