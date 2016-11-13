@@ -1,9 +1,10 @@
 ## LintCode
 
 
-#### Array (6)
+#### Array (7)
 
 * [Median](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Median.cpp)
+* [Kth Largest Element](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/KthLargestElement.cpp)
 * [Merge Intervals](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MergeIntervals.cpp)
 * [Two Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TwoSum.cpp)
 * [3 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3Sum.cpp)
@@ -48,11 +49,13 @@
 * [Topological Sorting](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TopologicalSorting.cpp)
 
 
-#### Bit Operation (4)
+#### Bit Operation (6)
 
 * [Count 1 in Binary](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Count1inBinary.cpp)
 * [Find the Missing Number](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/FindtheMissingNumber.cpp)
 * [O(1) Check Power Of 2](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/O(1)CheckPowerOf2.cpp)
+* [Single Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SingleNumber.cpp)
+* [Single Number II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SingleNumberII.cpp)
 * [Single Number III](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SingleNumberIII.cpp)
 
 
@@ -105,12 +108,11 @@
 * [Word Ladder](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/WordLadder.cpp)
 
 
-#### Greedy (5)
+#### Greedy (4)
 
 * [Delete Digits](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteDigits.cpp)
 * [Gas Station](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/GasStation.cpp)
 * [Majority Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MajorityNumber.cpp)
-* [Single Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SingleNumber.cpp) (Greedy, Bit Operation)
 * [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
