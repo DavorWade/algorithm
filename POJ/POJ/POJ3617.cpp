@@ -40,6 +40,7 @@ void solve(char *cows, int n) {
     putchar('\n');
 }
 
+/*
 int main() {
     int n;
     scanf("%d", &n);
@@ -56,3 +57,4 @@ int main() {
     system("pause");
     return 0;
 }
+*/
