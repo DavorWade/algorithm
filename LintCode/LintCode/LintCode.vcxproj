@@ -58,6 +58,7 @@
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
     <ClCompile Include="LongestWords.cpp" />
     <ClCompile Include="MajorityNumber.cpp" />
+    <ClCompile Include="MajorityNumberII.cpp" />
     <ClCompile Include="MatrixZigzagTraversal.cpp" />
     <ClCompile Include="Median.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />

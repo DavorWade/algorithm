@@ -267,5 +267,8 @@
     <ClCompile Include="JumpGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MajorityNumberII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
