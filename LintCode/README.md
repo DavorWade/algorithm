@@ -108,11 +108,13 @@
 * [Word Ladder](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/WordLadder.cpp)
 
 
-#### Greedy (4)
+#### Greedy (6)
 
 * [Delete Digits](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteDigits.cpp)
+* [Jump Game](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/JumpGame.cpp)
 * [Gas Station](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/GasStation.cpp)
 * [Majority Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MajorityNumber.cpp)
+* [Majority Number II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/MajorityNumberII.cpp)
 * [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
