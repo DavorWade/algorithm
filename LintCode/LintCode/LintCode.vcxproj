@@ -52,6 +52,7 @@
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="HouseRobberIII.cpp" />
     <ClCompile Include="JumpGame.cpp" />
+    <ClCompile Include="JumpGameII.cpp" />
     <ClCompile Include="kSumII.cpp" />
     <ClCompile Include="KthLargestElement.cpp" />
     <ClCompile Include="LargestNumber.cpp" />
