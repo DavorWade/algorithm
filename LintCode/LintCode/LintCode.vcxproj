@@ -45,6 +45,7 @@
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
     <ClCompile Include="FindtheMissingNumber.cpp" />
     <ClCompile Include="FlattenList.cpp" />
+    <ClCompile Include="FlipBits.cpp" />
     <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GraphValidTree.cpp" />

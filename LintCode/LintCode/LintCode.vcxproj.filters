@@ -270,5 +270,8 @@
     <ClCompile Include="MajorityNumberII.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FlipBits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
