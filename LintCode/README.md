@@ -49,10 +49,11 @@
 * [Topological Sorting](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TopologicalSorting.cpp)
 
 
-#### Bit Operation (6)
+#### Bit Operation (7)
 
 * [Count 1 in Binary](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Count1inBinary.cpp)
 * [Find the Missing Number](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/FindtheMissingNumber.cpp)
+* [Flip Bits](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/FlipBits.cpp)
 * [O(1) Check Power Of 2](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/O(1)CheckPowerOf2.cpp)
 * [Single Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SingleNumber.cpp)
 * [Single Number II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SingleNumberII.cpp)
@@ -108,13 +109,15 @@
 * [Word Ladder](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/WordLadder.cpp)
 
 
-#### Greedy (6)
+#### Greedy (8)
 
 * [Delete Digits](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteDigits.cpp)
 * [Jump Game](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/JumpGame.cpp)
+* [Jump Game II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/JumpGameII.cpp)
 * [Gas Station](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/GasStation.cpp)
 * [Majority Number](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MajorityNumber.cpp)
 * [Majority Number II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/MajorityNumberII.cpp)
+* [Majority Number III](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/MajorityNumberIII.cpp)
 * [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
