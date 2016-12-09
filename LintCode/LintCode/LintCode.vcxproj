@@ -66,6 +66,7 @@
     <ClCompile Include="MajorityNumberIII.cpp" />
     <ClCompile Include="MatrixZigzagTraversal.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
+    <ClCompile Include="MaximumSubarrayDifference.cpp" />
     <ClCompile Include="MaximumSubarrayII.cpp" />
     <ClCompile Include="Median.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
