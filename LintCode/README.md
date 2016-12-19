@@ -12,7 +12,7 @@
 * [4 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/4Sum.cpp)
 
 
-#### Dynamic Programming (14)
+#### Dynamic Programming (16)
 * [Back pack](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Backpack.cpp)
 * [Back pack II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackII.cpp)
 * [Backpack VI](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackVI.cpp)
@@ -21,6 +21,8 @@
 * [Decode Ways](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DecodeWays.cpp)
 * [Distinct Subsequences](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DistinctSubsequences.cpp)
 * [Fibonacci](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Fibonacci.cpp)
+* [Interleaving String](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/InterleavingString.cpp)
+* [Longest CommonSubsequence](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LongestCommonSubsequence.cpp)
 * [Longest Increasing Continuous Subsequence_DP](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LongestIncreasingContinuousSubsequence_DP.cpp)
 * [Perfect Squares](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PerfectSquares.cpp)
 * [Triangle](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Triangle.cpp)
