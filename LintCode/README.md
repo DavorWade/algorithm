@@ -112,7 +112,7 @@
 * [Word Ladder](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/WordLadder.cpp)
 
 
-#### Greedy (11)
+#### Greedy (12)
 
 * [Delete Digits](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteDigits.cpp)
 * [Jump Game](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/JumpGame.cpp)
@@ -124,6 +124,7 @@
 * [Maximum Subarray](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/MaximumSubarray.cpp)
 * [Maximum Subarray II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/MaximumSubarrayII.cpp)
 * [Maximum Subarray Difference](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/MaximumSubarrayDifference.cpp)
+* [Minimum Subarray](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/MinimumSubarray.cpp)
 * [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
@@ -155,8 +156,9 @@
 * [Subtree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subtree.cpp) (Recursion, Binary Tree)
 
 
-#### String (3)
+#### String (4)
 
+* [Add Binary](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/AddBinary.cpp)
 * [Compare Strings](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CompareStrings.cpp)
 * [Largest Number](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LargestNumber.cpp)
 * [Longest Words](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LongestWords.cpp)
