@@ -300,5 +300,8 @@
     <ClCompile Include="InterleavingString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AddBinary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

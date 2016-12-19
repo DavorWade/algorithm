@@ -14,6 +14,7 @@
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="3SumClosest.cpp" />
     <ClCompile Include="4Sum.cpp" />
+    <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="Backpack.cpp" />
     <ClCompile Include="BackpackII.cpp" />
     <ClCompile Include="BackpackVI.cpp" />
