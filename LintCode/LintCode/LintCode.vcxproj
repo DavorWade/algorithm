@@ -59,6 +59,7 @@
     <ClCompile Include="KthLargestElement.cpp" />
     <ClCompile Include="LargestNumber.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
+    <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
     <ClCompile Include="LongestWords.cpp" />
     <ClCompile Include="MajorityNumber.cpp" />
