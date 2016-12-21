@@ -54,6 +54,7 @@
     <ClCompile Include="HappyNumber.cpp" />
     <ClCompile Include="HouseRobberIII.cpp" />
     <ClCompile Include="IdenticalBinaryTree.cpp" />
+    <ClCompile Include="InsertNodeinaBinarySearchTree.cpp" />
     <ClCompile Include="InterleavingString.cpp" />
     <ClCompile Include="IntersectionofTwoArrays.cpp" />
     <ClCompile Include="IntersectionofTwoArraysII.cpp" />

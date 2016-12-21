@@ -321,5 +321,8 @@
     <ClCompile Include="IntersectionofTwoArrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="InsertNodeinaBinarySearchTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
