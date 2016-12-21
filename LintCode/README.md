@@ -1,15 +1,16 @@
 ## LintCode
 
 
-#### Array (7)
+#### Array (8)
 
+* [3 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3Sum.cpp)
+* [3 Sum Closest](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3SumClosest.cpp)
+* [4 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/4Sum.cpp)
+* [Insert Interval](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/InsertInterval.cpp)
 * [Median](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Median.cpp)
 * [Kth Largest Element](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/KthLargestElement.cpp)
 * [Merge Intervals](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MergeIntervals.cpp)
 * [Two Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TwoSum.cpp)
-* [3 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3Sum.cpp)
-* [3 Sum Closest](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3SumClosest.cpp)
-* [4 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/4Sum.cpp)
 
 
 #### Dynamic Programming (16)
@@ -68,11 +69,12 @@
 * [Convert Sorted List to Balanced BST](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ConvertSortedListtoBalancedBST.cpp)
 
 
-#### Binary Tree (3)
+#### Binary Tree (4)
 
 * [Binary Tree Level Order Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeLevelOrderTraversal.cpp)
 * [	Binary Tree Level Order Traversal II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeLevelOrderTraversalII.cpp)
 * [Clone Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CloneBinaryTree.cpp)
+* [Insert Nodeina Binary Search Tree](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/InsertNodeinaBinarySearchTree.cpp)
 
 
 #### Combinatorial number (3)
@@ -141,7 +143,7 @@
 * [Happy Number](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/HappyNumber.cpp)
 
 
-#### Recursion (11)
+#### Recursion (12)
 
 * [Balanced Binary Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BalancedBinaryTree.cpp)
 * [Binary Tree Maximum Path Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BinaryTreeMaximumPathSum.cpp)
@@ -151,15 +153,24 @@
 * [Count and Say](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CountandSay.cpp)
 * [Flatten List](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/FlattenList.cpp)
 * [Gray Code](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/GrayCode.cpp)
+* [Invert Binary Tree](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/InvertBinaryTree.cpp)
 * [Permutations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Permutations.cpp)
 * [Permutations II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PermutationsII.cpp)
 * [Subtree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subtree.cpp) (Recursion, Binary Tree)
 
 
-#### String (4)
+#### String (6)
 
 * [Add Binary](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/AddBinary.cpp)
 * [Compare Strings](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CompareStrings.cpp)
 * [Largest Number](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LargestNumber.cpp)
+* [Left Pad](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LeftPad.cpp)
+* [Length of Last Word](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LengthofLastWord.cpp)
 * [Longest Words](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LongestWords.cpp)
+
+
+#### Two Pointers (2)
+
+* [Intersection of Two Arrays](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/IntersectionofTwoArrays.cpp)
+* [Intersection of Two Arrays II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/IntersectionofTwoArraysII.cpp)
 
