@@ -83,6 +83,7 @@
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
+    <ClCompile Include="MinimumAdjustmentCost.cpp" />
     <ClCompile Include="MinimumSubarray.cpp" />
     <ClCompile Include="N-Queens.cpp" />
     <ClCompile Include="N-QueensII.cpp" />

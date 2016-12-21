@@ -327,5 +327,8 @@
     <ClCompile Include="InsertInterval.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MinimumAdjustmentCost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
