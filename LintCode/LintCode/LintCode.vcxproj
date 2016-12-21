@@ -61,6 +61,7 @@
     <ClCompile Include="kSumII.cpp" />
     <ClCompile Include="KthLargestElement.cpp" />
     <ClCompile Include="LargestNumber.cpp" />
+    <ClCompile Include="LeftPad.cpp" />
     <ClCompile Include="LengthofLastWord.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LongestCommonSubsequence.cpp" />
