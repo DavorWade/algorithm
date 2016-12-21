@@ -324,5 +324,8 @@
     <ClCompile Include="InsertNodeinaBinarySearchTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="InsertInterval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
