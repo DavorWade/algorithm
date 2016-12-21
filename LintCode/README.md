@@ -13,7 +13,7 @@
 * [Two Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TwoSum.cpp)
 
 
-#### Dynamic Programming (16)
+#### Dynamic Programming (17)
 * [Back pack](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Backpack.cpp)
 * [Back pack II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackII.cpp)
 * [Backpack VI](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackVI.cpp)
@@ -23,8 +23,9 @@
 * [Distinct Subsequences](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DistinctSubsequences.cpp)
 * [Fibonacci](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Fibonacci.cpp)
 * [Interleaving String](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/InterleavingString.cpp)
-* [Longest CommonSubsequence](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LongestCommonSubsequence.cpp)
+* [Longest Common Subsequence](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LongestCommonSubsequence.cpp)
 * [Longest Increasing Continuous Subsequence_DP](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LongestIncreasingContinuousSubsequence_DP.cpp)
+* [Minimum Adjustment Cost](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/MinimumAdjustmentCost.cpp)
 * [Perfect Squares](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PerfectSquares.cpp)
 * [Triangle](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Triangle.cpp)
 * [Unique Binary Search Trees II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniqueBinarySearchTreesII.cpp)  (DP, Recursion)
