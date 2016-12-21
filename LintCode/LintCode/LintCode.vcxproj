@@ -55,6 +55,7 @@
     <ClCompile Include="HouseRobberIII.cpp" />
     <ClCompile Include="IdenticalBinaryTree.cpp" />
     <ClCompile Include="InterleavingString.cpp" />
+    <ClCompile Include="InvertBinaryTree.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="JumpGameII.cpp" />
     <ClCompile Include="kSumII.cpp" />
