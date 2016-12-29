@@ -41,6 +41,7 @@
     <ClCompile Include="DeleteDigits.cpp" />
     <ClCompile Include="DeleteNodeintheMiddleofSinglyLinkedList.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
+    <ClCompile Include="EditDistance.cpp" />
     <ClCompile Include="FastPower.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
@@ -97,10 +98,12 @@
     <ClCompile Include="Pow(x, n).cpp" />
     <ClCompile Include="practice.cpp" />
     <ClCompile Include="RestoreIPAddresses.cpp" />
+    <ClCompile Include="ReversePairs.cpp" />
     <ClCompile Include="RouteBetweenTwoNodesinGraph.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SingleNumberII.cpp" />
     <ClCompile Include="SingleNumberIII.cpp" />
+    <ClCompile Include="SortIntegersII.cpp" />
     <ClCompile Include="Subsets.cpp" />
     <ClCompile Include="SubsetsII.cpp" />
     <ClCompile Include="Subtree.cpp" />
