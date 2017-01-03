@@ -13,7 +13,8 @@
 * [Two Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TwoSum.cpp)
 
 
-#### Dynamic Programming (17)
+#### Dynamic Programming (18)
+
 * [Back pack](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Backpack.cpp)
 * [Back pack II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackII.cpp)
 * [Backpack VI](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackVI.cpp)
@@ -21,6 +22,7 @@
 * [Coins In A Line II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CoinsInALineII.cpp)
 * [Decode Ways](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DecodeWays.cpp)
 * [Distinct Subsequences](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DistinctSubsequences.cpp)
+* [Edit Distance](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/EditDistance.cpp)
 * [Fibonacci](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Fibonacci.cpp)
 * [Interleaving String](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/InterleavingString.cpp)
 * [Longest Common Subsequence](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LongestCommonSubsequence.cpp)
@@ -158,6 +160,12 @@
 * [Permutations](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Permutations.cpp)
 * [Permutations II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PermutationsII.cpp)
 * [Subtree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subtree.cpp) (Recursion, Binary Tree)
+
+
+#### Sort (2)
+
+* [Reverse Pairs](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/ReversePairs.cpp)
+* [Sort Integers II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SortIntegersII.cpp)
 
 
 #### String (6)
