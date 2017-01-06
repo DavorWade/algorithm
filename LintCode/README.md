@@ -119,7 +119,7 @@
 * [Validate Binary Search Tree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ValidateBinarySearchTree.cpp)
 
 
-#### Graph (1)
+#### Forward-Backward Traversal (1)
 
 * [Product of Array Exclude Itself](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/ProductofArrayExcludeItself.cpp)
 
