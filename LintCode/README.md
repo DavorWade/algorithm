@@ -1,7 +1,7 @@
 ## LintCode
 
 
-#### Array (8)
+#### Array (9)
 
 * [3 Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3Sum.cpp)
 * [3 Sum Closest](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/3SumClosest.cpp)
@@ -10,6 +10,7 @@
 * [Median](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Median.cpp)
 * [Kth Largest Element](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/KthLargestElement.cpp)
 * [Merge Intervals](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MergeIntervals.cpp)
+* [Subarray Sum](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SubarraySum.cpp)
 * [Two Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TwoSum.cpp)
 
 
@@ -66,12 +67,14 @@
 * [Single Number III](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SingleNumberIII.cpp)
 
 
-#### Binary Search (4)
+#### Binary Search (6)
 
 * [Convert Sorted Array to Binary Search Tree With Minimal Height](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ConvertSortedArraytoBinarySearchTreeWithMinimalHeight.cpp)
 * [Convert Sorted List to Balanced BST](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ConvertSortedListtoBalancedBST.cpp)
 * [First Position of Target](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/FirstPositionofTarget.cpp)
 * [Search Insert Position](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SearchInsertPosition.cpp)
+* [Searcha 2D Matrix](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/Searcha2DMatrix.cpp)
+* [Sqrt(x)](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/Sqrt(x).cpp)
 
 
 #### Binary Tree (4)
@@ -142,7 +145,7 @@
 * [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
-#### Linked List (7)
+#### Linked List (8)
 
 * [Delete Node in the Middle of Singly Linked List](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteNodeintheMiddleofSinglyLinkedList.cpp)
 * [Insertion Sort List](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/InsertionSortList.cpp)
@@ -151,6 +154,7 @@
 * [Remove Duplicates from Sorted List](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/RemoveDuplicatesfromSortedList.cpp)
 * [Remove Nth Node From End of List](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/RemoveNthNodeFromEndofList.cpp)
 * [Reverse Linked List](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/ReverseLinkedList.cpp)
+* [Swap Nodes in Pairs](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SwapNodesinPairs.cpp)
 
 
 #### Math (2)
