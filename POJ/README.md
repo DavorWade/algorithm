@@ -10,4 +10,14 @@
 
 
 #### Depth First Search
+
 * [POJ2386](https://github.com/DavorWade/algorithm/blob/master/POJ/POJ/POJ2386.cpp)
+
+
+#### Graph
+
+* [POJ3660](https://github.com/watsonyanghx/algorithm/blob/master/POJ/POJ/POJ3660.cpp)
+
+#### Greedy
+
+* [POJ3253](https://github.com/watsonyanghx/algorithm/blob/master/POJ/POJ/POJ3253.cpp)
