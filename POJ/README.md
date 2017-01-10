@@ -21,3 +21,4 @@
 #### Greedy
 
 * [POJ3253](https://github.com/watsonyanghx/algorithm/blob/master/POJ/POJ/POJ3253.cpp)
+* [POJ3617](https://github.com/watsonyanghx/algorithm/blob/master/POJ/POJ/POJ3617.cpp)
