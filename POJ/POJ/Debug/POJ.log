@@ -1,3 +1,4 @@
 ﻿  POJ3253.cpp
+d:\users\yang\source\repos\algorithm\poj\poj\poj3253.cpp(34): warning C4244: 'return': conversion from 'll' to 'int', possible loss of data
   POJ.vcxproj -> D:\Users\Yang\Source\Repos\algorithm\POJ\Debug\POJ.exe
   POJ.vcxproj -> D:\Users\Yang\Source\Repos\algorithm\POJ\Debug\POJ.pdb (Full PDB)
