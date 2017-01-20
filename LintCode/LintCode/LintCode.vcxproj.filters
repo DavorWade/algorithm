@@ -390,5 +390,8 @@
     <ClCompile Include="SwapNodesinPairs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TrailingZeros.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

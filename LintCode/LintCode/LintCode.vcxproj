@@ -126,6 +126,7 @@
     <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="SwapNodesinPairs.cpp" />
     <ClCompile Include="TopologicalSorting.cpp" />
+    <ClCompile Include="TrailingZeros.cpp" />
     <ClCompile Include="Tree_traverse.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoSum.cpp" />
