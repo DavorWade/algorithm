@@ -408,5 +408,8 @@
     <ClCompile Include="Classical Binary Search.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NextPermutation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
