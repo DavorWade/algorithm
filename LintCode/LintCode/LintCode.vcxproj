@@ -100,6 +100,7 @@
     <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PerfectSquares.cpp" />
     <ClCompile Include="PermutationIndex.cpp" />
+    <ClCompile Include="PermutationIndexII.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
     <ClCompile Include="Pow(x, n).cpp" />
