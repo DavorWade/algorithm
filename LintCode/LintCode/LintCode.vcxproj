@@ -136,6 +136,7 @@
     <ClCompile Include="UniqueBinarySearchTreesII.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="ValidateBinarySearchTree.cpp" />
+    <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="WordLadder.cpp" />
     <ClCompile Include="WordSearch.cpp" />
