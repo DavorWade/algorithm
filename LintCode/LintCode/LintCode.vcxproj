@@ -131,6 +131,7 @@
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoStringsAreAnagrams.cpp" />
     <ClCompile Include="TwoSum.cpp" />
+    <ClCompile Include="UglyNumber.cpp" />
     <ClCompile Include="UniqueBinarySearchTrees.cpp" />
     <ClCompile Include="UniqueBinarySearchTreesII.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
