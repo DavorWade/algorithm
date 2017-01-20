@@ -129,6 +129,7 @@
     <ClCompile Include="TrailingZeros.cpp" />
     <ClCompile Include="Tree_traverse.cpp" />
     <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="TwoStringsAreAnagrams.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="UniqueBinarySearchTrees.cpp" />
     <ClCompile Include="UniqueBinarySearchTreesII.cpp" />
