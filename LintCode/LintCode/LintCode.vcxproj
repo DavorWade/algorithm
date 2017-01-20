@@ -25,6 +25,7 @@
     <ClCompile Include="BinaryTreePaths.cpp" />
     <ClCompile Include="BinaryTreePostorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
+    <ClCompile Include="Classical Binary Search.cpp" />
     <ClCompile Include="ClimbingStairs_m_steps.cpp" />
     <ClCompile Include="CloneBinaryTree.cpp" />
     <ClCompile Include="CloneGraph.cpp" />

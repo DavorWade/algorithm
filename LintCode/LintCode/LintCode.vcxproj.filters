@@ -405,5 +405,8 @@
     <ClCompile Include="ValidSudoku.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Classical Binary Search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
