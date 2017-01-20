@@ -67,13 +67,14 @@
 * [Single Number III](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SingleNumberIII.cpp)
 
 
-#### Binary Search (6)
+#### Binary Search (7)
 
+* [Classical Binary Search](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/Classical%20Binary%20Search.cpp)
 * [Convert Sorted Array to Binary Search Tree With Minimal Height](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ConvertSortedArraytoBinarySearchTreeWithMinimalHeight.cpp)
 * [Convert Sorted List to Balanced BST](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ConvertSortedListtoBalancedBST.cpp)
 * [First Position of Target](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/FirstPositionofTarget.cpp)
 * [Search Insert Position](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SearchInsertPosition.cpp)
-* [Searcha 2D Matrix](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/Searcha2DMatrix.cpp)
+* [Search a 2D Matrix](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/Searcha2DMatrix.cpp)
 * [Sqrt(x)](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/Sqrt(x).cpp)
 
 
@@ -85,12 +86,12 @@
 * [Insert Nodeina Binary Search Tree](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/InsertNodeinaBinarySearchTree.cpp)
 
 
-#### Combinatorial number (4)
+#### Combinatorial number (3)
 
 * [Subsets](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subsets.cpp) (Combinatorial number, Recursion)
 * [Subsets II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SubsetsII.cpp)
 * [k Sum II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/kSumII.cpp)
-* [Permutation Index](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/PermutationIndex.cpp)
+
 
 
 #### Disjoint Set (1)
@@ -124,9 +125,10 @@
 * [Product of Array Exclude Itself](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/ProductofArrayExcludeItself.cpp)
 
 
-#### Graph (1)
+#### Graph (2)
 
 * [Word Ladder](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/WordLadder.cpp)
+* [Valid Sudoku](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/ValidSudoku.cpp)
 
 
 #### Greedy (12)
@@ -157,10 +159,20 @@
 * [Swap Nodes in Pairs](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SwapNodesinPairs.cpp)
 
 
-#### Math (2)
+#### Math (4)
 
-* [Matrix Zigzag Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MatrixZigzagTraversal.cpp)
 * [Happy Number](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/HappyNumber.cpp)
+* [Matrix Zigzag Traversal](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MatrixZigzagTraversal.cpp)
+* [Trailing Zeros](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/TrailingZeros.cpp)
+* [Ugly Number](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/UglyNumber.cpp)
+
+#### Permutation (5)
+
+* [NextPermutation](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/NextPermutation.cpp)
+* [Next Permutation II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/NextPermutationII.cpp)
+* [Previous Permutation](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/PreviousPermutation.cpp)
+* [Permutation Index](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/PermutationIndex.cpp)
+* [Permutation Index II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/PermutationIndexII.cpp)
 
 
 #### Recursion (12)
@@ -185,7 +197,7 @@
 * [Sort Integers II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SortIntegersII.cpp)
 
 
-#### String (9)
+#### String (11)
 
 * [Add Binary](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/AddBinary.cpp)
 * [Compare Strings](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CompareStrings.cpp)
@@ -196,6 +208,8 @@
 * [Reverse Integer](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/ReverseInteger.cpp)
 * [Reverse Words in a String](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/ReverseWordsinaString.cpp)
 * [Rotate String](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/RotateString.cpp)
+* [Two Strings Are Anagrams](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/TwoStringsAreAnagrams.cpp)
+* [Valid Palindrome](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/ValidPalindrome.cpp)
 
 
 #### Two Pointers (3)
