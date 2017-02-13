@@ -14,7 +14,7 @@
 * [Two Sum](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/TwoSum.cpp)
 
 
-#### Dynamic Programming (18)
+#### Dynamic Programming (24)
 
 * [Back pack](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Backpack.cpp)
 * [Back pack II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/BackpackII.cpp)
@@ -25,10 +25,16 @@
 * [Distinct Subsequences](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DistinctSubsequences.cpp)
 * [Edit Distance](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/EditDistance.cpp)
 * [Fibonacci](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Fibonacci.cpp)
+* [House Robber](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/HouseRobber.cpp)
+* [House Robber II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/HouseRobberII.cpp)
 * [Interleaving String](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/InterleavingString.cpp)
 * [Longest Common Subsequence](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LongestCommonSubsequence.cpp)
 * [Longest Increasing Continuous Subsequence_DP](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LongestIncreasingContinuousSubsequence_DP.cpp)
 * [Minimum Adjustment Cost](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/MinimumAdjustmentCost.cpp)
+* [Maximum Product Subarray](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/MaximumProductSubarray.cpp)
+* [Maximal Square](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/MaximalSquare.cpp)
+* [Palindrome Partitioning II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/PalindromePartitioningII.cpp)
+* [Paint House](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/PaintHouse.cpp)
 * [Perfect Squares](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PerfectSquares.cpp)
 * [Triangle](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Triangle.cpp)
 * [Unique Binary Search Trees II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/UniqueBinarySearchTreesII.cpp)  (DP, Recursion)
@@ -106,7 +112,7 @@
 * [N-Queens](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/N-Queens.cpp)
 * [N-Queens II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/N-QueensII.cpp)
 * [Number of Islands](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/NumberofIslands.cpp)
-* [Palindrome Partitioning.cpp](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PalindromePartitioning.cpp)
+* [Palindrome Partitioning](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PalindromePartitioning.cpp)
 * [Tree_traverse](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Tree_traverse.cpp)
 
 
@@ -166,13 +172,14 @@
 * [Trailing Zeros](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/TrailingZeros.cpp)
 * [Ugly Number](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/UglyNumber.cpp)
 
-#### Permutation (5)
+#### Permutation (6)
 
 * [NextPermutation](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/NextPermutation.cpp)
 * [Next Permutation II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/NextPermutationII.cpp)
 * [Previous Permutation](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/PreviousPermutation.cpp)
 * [Permutation Index](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/PermutationIndex.cpp)
 * [Permutation Index II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/PermutationIndexII.cpp)
+* [PermutationSequence](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/PermutationSequence.cpp)
 
 
 #### Recursion (12)
@@ -191,15 +198,22 @@
 * [Subtree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subtree.cpp) (Recursion, Binary Tree)
 
 
-#### Sort (2)
+#### Sort (8)
 
 * [Reverse Pairs](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/ReversePairs.cpp)
+* [Sort Colors](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SortColors.cpp)
+* [Sort Colors II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SortColorsII.cpp)
 * [Sort Integers II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SortIntegersII.cpp)
+* [Sort Letters by Case](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SortLettersbyCase.cpp)
+* [Subarray Sum Closest](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SubarraySumClosest.cpp)
+* [Wiggle Sort](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/WiggleSort.cpp)
+* [Wiggle Sort II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/WiggleSortII.cpp)
 
 
-#### String (11)
+#### String (12)
 
 * [Add Binary](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/AddBinary.cpp)
+* [Add Digits](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/AddDigits.cpp)
 * [Compare Strings](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/CompareStrings.cpp)
 * [Largest Number](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LargestNumber.cpp)
 * [Left Pad](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LeftPad.cpp)
