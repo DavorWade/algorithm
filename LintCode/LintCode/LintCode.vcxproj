@@ -15,6 +15,7 @@
     <ClCompile Include="3SumClosest.cpp" />
     <ClCompile Include="4Sum.cpp" />
     <ClCompile Include="AddBinary.cpp" />
+    <ClCompile Include="AddDigits.cpp" />
     <ClCompile Include="Backpack.cpp" />
     <ClCompile Include="BackpackII.cpp" />
     <ClCompile Include="BackpackVI.cpp" />
@@ -55,6 +56,8 @@
     <ClCompile Include="GraphValidTree.cpp" />
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="HappyNumber.cpp" />
+    <ClCompile Include="HouseRobber.cpp" />
+    <ClCompile Include="HouseRobberII.cpp" />
     <ClCompile Include="HouseRobberIII.cpp" />
     <ClCompile Include="IdenticalBinaryTree.cpp" />
     <ClCompile Include="InsertInterval.cpp" />
@@ -79,6 +82,8 @@
     <ClCompile Include="MajorityNumberII.cpp" />
     <ClCompile Include="MajorityNumberIII.cpp" />
     <ClCompile Include="MatrixZigzagTraversal.cpp" />
+    <ClCompile Include="MaximalSquare.cpp" />
+    <ClCompile Include="MaximumProductSubarray.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MaximumSubarrayDifference.cpp" />
     <ClCompile Include="MaximumSubarrayII.cpp" />
@@ -96,13 +101,16 @@
     <ClCompile Include="NthtoLastNodeinList.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
     <ClCompile Include="O(1)CheckPowerOf2.cpp" />
+    <ClCompile Include="PaintHouse.cpp" />
     <ClCompile Include="PalindromePartitioning.cpp" />
+    <ClCompile Include="PalindromePartitioningII.cpp" />
     <ClCompile Include="PartitionArray.cpp" />
     <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PerfectSquares.cpp" />
     <ClCompile Include="PermutationIndex.cpp" />
     <ClCompile Include="PermutationIndexII.cpp" />
     <ClCompile Include="Permutations.cpp" />
+    <ClCompile Include="PermutationSequence.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
     <ClCompile Include="Pow(x, n).cpp" />
     <ClCompile Include="practice.cpp" />
@@ -122,9 +130,13 @@
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SingleNumberII.cpp" />
     <ClCompile Include="SingleNumberIII.cpp" />
+    <ClCompile Include="SortColors.cpp" />
+    <ClCompile Include="SortColorsII.cpp" />
     <ClCompile Include="SortIntegersII.cpp" />
+    <ClCompile Include="SortLettersbyCase.cpp" />
     <ClCompile Include="Sqrt(x).cpp" />
     <ClCompile Include="SubarraySum.cpp" />
+    <ClCompile Include="SubarraySumClosest.cpp" />
     <ClCompile Include="Subsets.cpp" />
     <ClCompile Include="SubsetsII.cpp" />
     <ClCompile Include="Subtree.cpp" />
@@ -144,6 +156,8 @@
     <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
+    <ClCompile Include="WiggleSort.cpp" />
+    <ClCompile Include="WiggleSortII.cpp" />
     <ClCompile Include="WordLadder.cpp" />
     <ClCompile Include="WordSearch.cpp" />
   </ItemGroup>
