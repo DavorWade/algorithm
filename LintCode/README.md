@@ -73,11 +73,12 @@
 * [Single Number III](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SingleNumberIII.cpp)
 
 
-#### Binary Search (7)
+#### Binary Search (8)
 
 * [Classical Binary Search](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/Classical%20Binary%20Search.cpp)
 * [Convert Sorted Array to Binary Search Tree With Minimal Height](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ConvertSortedArraytoBinarySearchTreeWithMinimalHeight.cpp)
 * [Convert Sorted List to Balanced BST](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/ConvertSortedListtoBalancedBST.cpp)
+* [Divide Two Integers](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/DivideTwoIntegers.cpp)
 * [First Position of Target](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/FirstPositionofTarget.cpp)
 * [Search Insert Position](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SearchInsertPosition.cpp)
 * [Search a 2D Matrix](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/Searcha2DMatrix.cpp)
@@ -97,7 +98,6 @@
 * [Subsets](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subsets.cpp) (Combinatorial number, Recursion)
 * [Subsets II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/SubsetsII.cpp)
 * [k Sum II](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/kSumII.cpp)
-
 
 
 #### Disjoint Set (1)
@@ -153,8 +153,14 @@
 * [Partition Array](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/PartitionArray.cpp)
 
 
-#### Linked List (8)
+#### Hash Table (2)
 
+* [Anagrams](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/Anagrams.cpp)
+* [Hash Function](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/HashFunction.cpp)
+
+
+#### Linked List (9)
+* [Copy List with Random Pointer](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/CopyListwithRandomPointer.cpp)
 * [Delete Node in the Middle of Singly Linked List](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/DeleteNodeintheMiddleofSinglyLinkedList.cpp)
 * [Insertion Sort List](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/InsertionSortList.cpp)
 * [Merge Two Sorted Lists](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/MergeTwoSortedLists.cpp)
@@ -198,8 +204,9 @@
 * [Subtree](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/Subtree.cpp) (Recursion, Binary Tree)
 
 
-#### Sort (8)
+#### Sort (11)
 
+* [Maximum Gap](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/MaximumGap.cpp)
 * [Reverse Pairs](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/ReversePairs.cpp)
 * [Sort Colors](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SortColors.cpp)
 * [Sort Colors II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SortColorsII.cpp)
@@ -208,9 +215,11 @@
 * [Subarray Sum Closest](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SubarraySumClosest.cpp)
 * [Wiggle Sort](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/WiggleSort.cpp)
 * [Wiggle Sort II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/WiggleSortII.cpp)
+* [Nuts Bolts Problem](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/NutsBoltsProblem.cpp)
+* [The Smallest Difference](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/TheSmallestDifference.cpp)
 
 
-#### String (12)
+#### String (13)
 
 * [Add Binary](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/AddBinary.cpp)
 * [Add Digits](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/AddDigits.cpp)
@@ -218,6 +227,7 @@
 * [Largest Number](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LargestNumber.cpp)
 * [Left Pad](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LeftPad.cpp)
 * [Length of Last Word](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LengthofLastWord.cpp)
+* [Longest Substring Without Repeating Characters](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/LongestSubstringWithoutRepeatingCharacters.cpp)
 * [Longest Words](https://github.com/DavorWade/algorithm/blob/master/LintCode/LintCode/LongestWords.cpp)
 * [Reverse Integer](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/ReverseInteger.cpp)
 * [Reverse Words in a String](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/ReverseWordsinaString.cpp)
