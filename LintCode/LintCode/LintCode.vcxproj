@@ -16,6 +16,7 @@
     <ClCompile Include="4Sum.cpp" />
     <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddDigits.cpp" />
+    <ClCompile Include="Anagrams.cpp" />
     <ClCompile Include="Backpack.cpp" />
     <ClCompile Include="BackpackII.cpp" />
     <ClCompile Include="BackpackVI.cpp" />
@@ -37,12 +38,14 @@
     <ClCompile Include="CompareStrings.cpp" />
     <ClCompile Include="ConvertSortedArraytoBinarySearchTreeWithMinimalHeight.cpp" />
     <ClCompile Include="ConvertSortedListtoBalancedBST.cpp" />
+    <ClCompile Include="CopyListwithRandomPointer.cpp" />
     <ClCompile Include="Count1inBinary.cpp" />
     <ClCompile Include="CountandSay.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DeleteDigits.cpp" />
     <ClCompile Include="DeleteNodeintheMiddleofSinglyLinkedList.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
+    <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="EditDistance.cpp" />
     <ClCompile Include="FastPower.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
@@ -56,6 +59,7 @@
     <ClCompile Include="GraphValidTree.cpp" />
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="HappyNumber.cpp" />
+    <ClCompile Include="HashFunction.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="HouseRobberII.cpp" />
     <ClCompile Include="HouseRobberIII.cpp" />
@@ -77,12 +81,14 @@
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestIncreasingContinuousSubsequence_DP.cpp" />
+    <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="LongestWords.cpp" />
     <ClCompile Include="MajorityNumber.cpp" />
     <ClCompile Include="MajorityNumberII.cpp" />
     <ClCompile Include="MajorityNumberIII.cpp" />
     <ClCompile Include="MatrixZigzagTraversal.cpp" />
     <ClCompile Include="MaximalSquare.cpp" />
+    <ClCompile Include="MaximumGap.cpp" />
     <ClCompile Include="MaximumProductSubarray.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MaximumSubarrayDifference.cpp" />
@@ -100,6 +106,7 @@
     <ClCompile Include="NextPermutationII.cpp" />
     <ClCompile Include="NthtoLastNodeinList.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
+    <ClCompile Include="NutsBoltsProblem.cpp" />
     <ClCompile Include="O(1)CheckPowerOf2.cpp" />
     <ClCompile Include="PaintHouse.cpp" />
     <ClCompile Include="PalindromePartitioning.cpp" />
@@ -142,6 +149,7 @@
     <ClCompile Include="Subtree.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="SwapNodesinPairs.cpp" />
+    <ClCompile Include="TheSmallestDifference.cpp" />
     <ClCompile Include="TopologicalSorting.cpp" />
     <ClCompile Include="TrailingZeros.cpp" />
     <ClCompile Include="Tree_traverse.cpp" />
