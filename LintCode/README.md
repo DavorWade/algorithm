@@ -215,7 +215,7 @@
 * [Subarray Sum Closest](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/SubarraySumClosest.cpp)
 * [Wiggle Sort](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/WiggleSort.cpp)
 * [Wiggle Sort II](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/WiggleSortII.cpp)
-* [Nuts Bolts Problem](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/NutsBoltsProblem.cpp)
+* [Nuts & Bolts Problem](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/NutsBoltsProblem.cpp)
 * [The Smallest Difference](https://github.com/watsonyanghx/algorithm/blob/master/LintCode/LintCode/TheSmallestDifference.cpp)
 
 
