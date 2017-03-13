@@ -78,6 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1272.cpp" />
     <ClCompile Include="BinaryWatch.cpp" />
     <ClCompile Include="BrowserCaching.cpp" />
     <ClCompile Include="Composition.cpp" />

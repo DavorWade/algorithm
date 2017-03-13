@@ -6,6 +6,7 @@ using namespace std;
 
 //http://hihocoder.com/contest/hiho114/problem/1
 
+/*
 int n;
 int A[100][100] = {};
 int C[100][100] = {};
@@ -56,7 +57,7 @@ bool isEncrypted(int bi, int bj, int sz) {
     }
     return false;
 }
-
+*/
 /*
 int main() {
     ios::sync_with_stdio(false);

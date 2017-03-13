@@ -8,6 +8,7 @@
 
 using namespace std;
 
+/*
 int main() {
     int N, M;
     string composition;
@@ -41,3 +42,4 @@ int main() {
     printf("%d\n", dp[N]);
     return 0;
 }
+*/

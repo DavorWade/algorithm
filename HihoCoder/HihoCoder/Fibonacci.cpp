@@ -9,6 +9,7 @@ using namespace std;
 
 long long dp[100], m, n, a[1000009], f[100], ans = 0;
 
+/*
 int main() {
     f[1] = 1;
     f[2] = 1;
@@ -41,7 +42,7 @@ int main() {
 
     return 0;
 }
-
+*/
 
 /*
 // DFS, Time Limited Error.
